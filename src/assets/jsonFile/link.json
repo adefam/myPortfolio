@@ -1,0 +1,46 @@
+{
+    "Buttonlink": [
+        {
+          "id": 1,
+          "color": "adefam-linkedIn-color adefam-link-button focus:outline-none",
+          "to": "https://www.linkedin.com/in/adefam/",
+          "icon": "flex fab fa-linkedin"
+        },
+        {
+          "id": 2,
+          "color": "adefam-github-color adefam-link-button focus:outline-none",
+          "to": "https://github.com/adefam",
+          "icon": "flex fab fa-github"
+        },
+        {
+          "id": 3,
+          "color": "adefam-dev-color adefam-link-button focus:outline-none",
+          "to": "https://dev.to/adefam",
+          "icon": "flex fab fa-dev"
+        },
+        {
+          "id": 4,
+          "color": "adefam-twitter-color adefam-link-button focus:outline-none",
+          "to": "https://twitter.com/FamosaAdegbite",
+          "icon": "flex fab fa-twitter"
+        },
+        {
+          "id": 5,
+          "color": "adefam-facebook-color adefam-link-button focus:outline-none",
+          "to": "https://www.facebook.com/adefamosa/",
+          "icon": "flex fab fa-facebook-square"
+        },
+        {
+          "id": 6,
+          "color": "adefam-instagram-color adefam-link-button focus:outline-none",
+          "to": "https://www.instagram.com/adefaminfotech/",
+          "icon": "flex fab fa-instagram"
+        },
+        {
+          "id": 7,
+          "color": "adefam-whatsapp-color adefam-link-button focus:outline-none",
+          "to": "https://wa.me/+2348032366804?text=Hi,%20Let%20gist",
+          "icon": "flex fab fa-whatsapp"
+        }
+      ]
+}

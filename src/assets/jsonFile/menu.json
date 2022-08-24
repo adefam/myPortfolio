@@ -1,0 +1,74 @@
+{
+    "menus": [
+        {
+            "list":"adefam",
+            "title": "Home",
+            "link":"#Home",
+            "classLink": "adefam-link",
+            "icons": "fas fa-laptop-house adefam-home"
+        },
+        {
+            "list":"adefam",
+            "title": "About Me",
+            "link":"#About-Me",
+            "classLink": "adefam-link",
+            "icons": "fas fa-user-edit adefam-about"
+        },
+        {
+            "list":"adefam",
+            "title": "Qualification/Certificate",
+            "link":"#Qualification",
+            "classLink": "adefam-link",
+            "icons": "fas fa-user-graduate adefam-certificate"
+        },
+        {
+            "list":"adefam",
+            "title": "Experience",
+            "link":"#Experience",
+            "classLink": "adefam-link",
+            "icons": "fas fa-briefcase adefam-experience"
+        },
+        {
+            "list":"adefam",
+            "title": "Blog",
+            "link":"#Blog",
+            "classLink": "adefam-link",
+            "icons": "fas fa-blog adefam-blog"
+        },
+        {
+            "list":"adefam",
+            "title": "Skills",
+            "link":"#Skills",
+            "classLink": "adefam-link",
+            "icons": "fas fa-chess-knight adefam-skills"
+        },
+        {
+            "list":"adefam",
+            "title": "Project",
+            "link":"#Project",
+            "classLink": "adefam-link",
+            "icons": "fas fa-folder-open adefam-project"
+        },
+        {
+            "list":"adefam",
+            "title": "WhatsApp",
+            "link":"https://wa.me/+2348032366804?text=Hi,%20Let%20gist",
+            "classLink": "adefam-link",
+            "icons": "fab fa-whatsapp-square adefam-whatsapp"
+        },
+        {
+            "list":"adefam",
+            "title": "Footer",
+            "link":"#Footer",
+            "classLink": "adefam-link",
+            "icons": "fas fa-shoe-prints adefam-footer"
+        }
+    ],
+    "menulinks": [
+        {
+            "href":"http://adefam.com.ng/",
+            "src":"https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png",
+            "alt":"adefam logo"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "navigation": [
+        { 
+            "name": "+234 803-2366-804", 
+            "href": "tel:+2348032366804" 
+        },
+        { 
+            "name": "adefamosa@gmail.com", 
+            "href": "mailto:adefamosa@gmail.com" 
+        }
+      ],
+
+      "navImage": [
+        {
+          "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png", 
+          "alt": "adefamosa"
+        }
+      ],
+
+      "mobileNav": [
+        { 
+            "name": "Home", 
+            "href": "#Home", 
+            "icon": "fas fa-laptop-house pr-3" 
+        },
+        { 
+            "name": "About me", 
+            "href": "#About-Me", 
+            "icon": "fas fa-user-edit pr-3" 
+        },
+        { 
+            "name": "Education", 
+            "href": "#Qualification", 
+            "icon": "fas fa-user-graduate pr-3" 
+        },
+        { 
+            "name": "Experience", 
+            "href": "#Experience", 
+            "icon": "fas fa-briefcase pr-3" 
+        },
+        { 
+            "name": "Blog", 
+            "href": "#Blog", 
+            "icon": "fas fa-blog pr-3" 
+        },
+        { 
+            "name": "Skills", 
+            "href": "#Skills", 
+            "icon": "fas fa-chess-knight pr-3" 
+        },
+        { 
+            "name": "Project", 
+            "href": "#Project", 
+            "icon": "fas fa-folder-open pr-3" 
+        },
+        { 
+            "name": "Contact me", 
+            "href": "#Footer", 
+            "icon": "fas fa-shoe-prints pr-3" 
+        }
+      ]
+}

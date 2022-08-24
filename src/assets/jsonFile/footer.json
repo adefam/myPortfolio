@@ -1,0 +1,21 @@
+{
+    "footers": [
+        {
+            "emailheader": "Email:",
+            "email": "adefamosa@gmail.com",
+            "emailhref": "mailto:adefamosa@gmail.com",
+
+            "phoneheader": "Phone:",
+            "phone": "+234-803-2366-804",
+            "phonehref": "tel:+2348032366804",
+
+            "followheader": "Follow me!",
+
+            "message": "Want to know more about me, build something awesome or collaborate?",
+            "messageheader": "Send me message!",
+
+            "name": "Famosa Adegbite",
+            "namehref": "#"
+        }
+    ]
+}

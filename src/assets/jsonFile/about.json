@@ -1,0 +1,31 @@
+{
+    "aboutContent": [
+        {
+         "id": 1,
+          "topHead": "Ensure Solution",
+          "downHead": "with Tech & Design.",
+          "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1657898641/myPotfolio/adefam_ntt9dd.png",
+          "alt": "adefam",
+          "cv": "My CV",
+          "cvhref": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true"
+        } 
+    ],
+
+    "aboutParagraph": [
+        {
+          "para": "I am passionate about what I do and doing it well is my goal."
+        },
+        {
+           "para": "Some people call me adefam, but I am Famosa Adegbite Temitayo. I grew up in Osogbo, Osun State, Nigeria."
+        },
+        {
+           "para": "I studied Computer Science at Osun State College of Technology and further my degree program in Computer Science at Osun State University."
+        },
+        {
+           "para": "Trained in various computer related application and certified with many."
+        },
+        {
+           "para": "Skilled in Software Engineer, Frontend, Backend, Database Administrator, Data Science and Analysis, UI/UX Design, GoogleLing, Training/Mentoring, Soft-Skills and more..."
+        }
+    ]
+}

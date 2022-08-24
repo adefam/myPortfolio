@@ -1,0 +1,70 @@
+{
+    "projects": [
+        {
+            "heading": "My Project",
+            "subheading": "I decide to start write aticles based on challenges and problem encounter during the course of code and that I can provide solutions to in my own way"
+        }
+    ],
+    "projectSlides": [
+        {
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1648625565/myPotfolio/weather-image_vugrh6.jpg",
+            "href": "https://adefam-weatherapp-2020.web.app/",
+            "categories": "11 Mar 2021 ・Updated on 22 Mar ・3 min read",
+            "title": "Weather App",
+            "content": "Designs and implements web based weather application with HTML, CSS, and JavaScript.",
+            "view": "746",
+            "alt": "Adefam Weather App",
+            "message": "3"
+        },
+        {
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1648626545/myPotfolio/Shopping_Cart-removebg-preview_liryh5.png",
+            "href": "http://msme-openshop.herokuapp.com/",
+            "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
+            "title": "Ecommerce App",
+            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "view": "3.8k",
+            "alt": "Adefam Ecommerce App",
+            "message": "6"
+        },
+        {
+            "src": "https://res.cloudinary.com/dpfqhti3j/image/upload/q_auto,f_auto/v1604934129/others/background2_xj77vm.png",
+            "href": "https://deborasalako.web.app",
+            "categories": "04 Oct 2019 3 min read",
+            "title": "Event App.",
+            "content": "Designs and implements web based event program website using Bootstrap, Css, Node/Express JS, Ejs, Firebase, Firestore, Cloudinary API.",
+            "view": "1.2k",
+            "alt": "Adefam Event App",
+            "message": "1"
+        },
+        {
+            "src": "https://miro.medium.com/max/1400/1*fygqfizATFjt6ALek2W1jg.png",
+            "href": "https://adefam.com.ng",
+            "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
+            "title": "My Portfolio",
+            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "view": "3.8k",
+            "alt": "Famosa Adegbite Portfolio",
+            "message": "6"
+        },
+        {
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1648627937/myPotfolio/CET_LOGO_2a_p060wx.png",
+            "href": "https://myblog.adefam.com.ng/2019/09/prevent-your-facebook-account-from.html",
+            "categories": "04 Oct 2019 3 min read",
+            "title": "Code Evaluation Tools",
+            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "view": "1.2k",
+            "alt": "Data Scientist Network",
+            "message": "1"
+        },
+        {
+            "src": "https://getlogdog.com/wp-content/uploads/2015/03/facebook-account-hacked-624x393.jpg",
+            "href": "https://myblog.adefam.com.ng/2019/09/prevent-your-facebook-account-from.html",
+            "categories": "04 Oct 2019 3 min read",
+            "title": "Certificate Verification Tools",
+            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "view": "1.2k",
+            "alt": "Data Scientist Network",
+            "message": "1"
+        }
+    ]
+}

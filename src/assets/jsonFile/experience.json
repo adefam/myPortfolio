@@ -1,0 +1,66 @@
+{
+    "slides": [
+      {
+      	"id": 1,
+        "date1": "2011 - Present",
+        "title1": "Founder, Adefam Computer Infotech",
+        "content1": "Provides quality computer training and IT solutions, helping youth, individuals, companies, and businesses acquire enough ICT knowledge through well structured, standard learning materials and conducive environment, thereby making them becoming lifelong champions in IT-related skills.",
+        "link1": "Learn More",
+        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+        
+        "date2": "March 2021 - Present",
+        "title2": "Microsoft 4Afrika Skillslab Partnership 2021 Mentor, Andela",
+        "content2": "Assisting Microsoft and Andela to achieve their goals in running an ALC x Microsoft 4Afrika Skillslab Program to upskill 3000 technology upskill final year tertiary students and fresh graduates with knowledge in advanced technologies; DevOps and artificial intelligence (AI) in readiness for potential employment opportunities and increased productivity.",
+        "link2": "Learn More",
+        "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+
+        "date3": "Mar 2020 - Jan 2021",
+        "title3": "Gads2020 Mentor, Andela",
+        "content3": "Assisted learners in providing solutions, review codebase, ensure 100% completion of projects and assessments in which over 85% of the learners were able to achieve.",
+        "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+        "link3": "Learn More" 
+      },
+
+      {
+        "id": 2,
+        "date1": "June - Present",
+        "title1": "Content Writer, Indeed",
+        "content1": "Providing quality computer training and IT solutions, helping youth, individuals, companies, and businesses acquire enough ICT knowledge through well structured, standard learning materials and conducive environment, thereby making them becoming lifelong champions in IT-related skills.",
+        "link1": "Learn More",
+        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+
+        "date2": "June 28 - Present",
+        "title2": "Software Engineer, Andela",
+        "content2": "Support team’s effort to build and deploy full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, data storage, persistence, code editor among others.",
+        "link2": "Learn More",
+        "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+
+        "date3": "Nov 2020 - May 2021",
+        "title3": "Software Engineer, Data Science Nigeria",
+        "content3": "Support team’s effort to build and deploy full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, data storage, persistence, code editor among others.",
+        "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+        "link3": "Learn More"
+      },
+      {
+        "id": 3,
+
+        "date1": "May 2020 - Nov 2020",
+        "title1": "BuildforSDG 2020 Mentor, Andela",
+        "content1": "Guided and Unblocked Innovators in the program towards building finished and functional products.",
+        "link1": "Learn More",
+        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+
+        "date2": "May 2012 – June 2017",
+        "title2": " Data Biometrics Registration Officer, National Examinations Council (NECO)",
+        "content2": "Captured and registered over five thousand biometric data of Senior School Students for SSCE examination and also reported errors identified from the students records for proper correction and accuracy. ",
+        "link2": "Learn More",
+        "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+
+        "date3": "Apr 2008 - Present",
+        "title3": "Administrative Clerk, The Church of Jesus Christ of Later-day Saints",
+        "content3": "Performing administrative activities of a religious oranization",
+        "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+        "link3": "Learn More"
+      }
+    ]
+}

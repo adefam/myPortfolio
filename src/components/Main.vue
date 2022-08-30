@@ -1,6 +1,6 @@
 <template>
 
-  <div v-for="mainSlide in mainValue" :key="mainSlide.id" class="relative bg-white overflow-hidden h-screen" v-bind:style="classStyle" id="Home">
+  <div v-for="mainSlide in mainValue" :key="mainSlide.id" class="relative bg-white overflow-hidden" v-bind:style="classStyle" id="Home">
     <div class="max-w-7xl mx-auto" >
       <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32" v-bind:style="classStyle">
         <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" >
@@ -9,7 +9,7 @@
 
         <Navbar />
 
-        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 h-screen">
+        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div class="text-center sm:text-center lg:text-left">
 
             <img class="w-32 h-32 mb-4 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 lg:hidden" :src="mainSlide.image" :alt="mainSlide.alt" loading="lazy" >

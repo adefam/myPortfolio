@@ -1,5 +1,5 @@
 <template>
-  <div class="body" v-bind:style="classStyle">
+  <div class="body top-0 w-full h-full bg-center bg-cover" v-bind:style="classStyle">
     <section class="max-w-7xl text-gray-600 body-font overflow-hidden mx-auto" id="Project">
       <div class="px-5 pb-20 mx-auto" v-for="project in projects" :key="project.heading">
         <div class="px-1 py-5 mx-auto flex flex-col items-center text-center w-full" data-aos="zoom-in"
@@ -19,9 +19,13 @@
                 <img class="lg:h-48 md:h-36 adefam-img" :src="projectSlide.src" :alt="projectSlide.alt" loading="lazy">
                 <div class="p-6">
                   <h1 class="adefam-title">{{ projectSlide.title }}</h1>
+                  <h5 class="adefam-title">{{ projectSlide.subtitle }}</h5>
                   <p class="adefam-content">{{ projectSlide.content }}</p>
+                  <p class="adefam-content">{{ projectSlide.content1 }}</p>
+                  <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.fronthref">{{projectSlide.front}}</a>
+                  <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.backhref">{{projectSlide.back}}</a>
                   <div class="flex items-center flex-wrap ">
-                    <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.href">Read More
+                    <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.href">{{projectSlide.touch}}
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
@@ -77,5 +81,5 @@ export default {
 </script>
 
 <style scoped>
-.body{padding:20px;}h2{font-size:24px}.adefam_carousel{display:flex;justify-content:center;align-items:center;overflow:hidden}.adefam_carousel_slide{flex:0 0 100%;display:flex;justify-content:center;padding:25px;transition:.3s;margin:5px 0}.adefam_carousel_column{display:flex;flex-wrap:wrap;padding:1rem 0}.next{left:auto;right:1%}
+.body{}h2{font-size:24px}.adefam_carousel{display:flex;justify-content:center;align-items:center;overflow:hidden}.adefam_carousel_slide{flex:0 0 100%;display:flex;justify-content:center;padding:25px;transition:.3s;margin:5px 0}.adefam_carousel_column{display:flex;flex-wrap:wrap;padding:1rem 0}.next{left:auto;right:1%}
 </style>

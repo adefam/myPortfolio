@@ -3,37 +3,38 @@
         {
           "id": 1,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/v1654008681/myPotfolio/IMG-20220524-WA0049_ztinwu.jpg",
-          "content":"Designs and implements web based weather application with HTML, CSS, and JavaScript."
+          "alt": "Famosa Adegbite Image",
+          "content":"AI and Python Training at Osun State University, Osogbo, Osun State."
         },
         {
           "id": 2,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1655337777/myPotfolio/20190304_131643_b039mf.jpg",
           "alt": "Famosa Adegbite Image",
-          "content":"Designs and implements web based weather application with HTML, CSS, and JavaScript."
+          "content":"Database class during NYSC at Okop-beto Grammar School, Ikot-Ekpene, Akwal-Ibom State."
         },
         {
           "id": 3,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1655338003/myPotfolio/2013-06-23-115_pteybl.jpg",
           "alt": "Famosa Adegbite Image",
-          "content":"Designs and implements web based weather application with HTML, CSS, and JavaScript."
+          "content":"Administrative Clerk @ The Church of Jesus Christ of Latter-Day Saints."
         },
         {
           "id": 4,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1655338327/myPotfolio/IMG-20180314-WA0008_wrihb7.jpg",
           "alt": "Famosa Adegbite Image",
-          "content":"Designs and implements web based weather application with HTML, CSS, and JavaScript."
+          "content":"Office hour selfie at Adefam Computer Infotech."
         },
         {
           "id": 5,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1655338328/myPotfolio/IMG-20180508-WA0000-1_auyqjr.jpg",
           "alt": "Famosa Adegbite Image",
-          "content": "Designs and implements web based weather application with HTML, CSS, and JavaScript."
+          "content": "Seminar on how to grow my business and digital marketing."
         },
         {
           "id": 6,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1654008681/myPotfolio/IMG-20220527-WA0021_tgjvgm.jpg",
           "alt": "Famosa Adegbite Image",
-          "content":"Designs and implements web based weather application with HTML, CSS, and JavaScript."
+          "content":"AI training at Opolo Hub, Osun State University, Osogbo, Osun State."
         }
       ]
 }

@@ -2,7 +2,7 @@
     "projects": [
         {
             "heading": "My Project",
-            "subheading": "I decide to start write aticles based on challenges and problem encounter during the course of code and that I can provide solutions to in my own way"
+            "subheading": "Wisdom is the application of knowledge so is project the application of skills. An unknown author said, “Knowledge is knowing what to say. Wisdom is knowing when to say it”. Likewise, Skills is knowing what to do while Project is knowing how and when to do it. These are few of my web-related project work among others that are not related to the web."
         }
     ],
     "projectSlides": [
@@ -11,9 +11,11 @@
             "href": "https://adefam-weatherapp-2020.web.app/",
             "categories": "11 Mar 2021 ・Updated on 22 Mar ・3 min read",
             "title": "Weather App",
-            "content": "Designs and implements web based weather application with HTML, CSS, and JavaScript.",
+            "content": "The project aims is to showcase my skills in PWA, Vanilla JavaScript, and HTML by allowing users to get weather information using open weather API.",
+            "content1": "The solution uses HTML, CSS, JavaScript, and also meets up with PWA criteria by having a Service Worker installed, Web App Manifest, and web accessibility guidelines. The weather app is users friendly, mobile responsive, and hosted on FIREBASE.",
             "view": "746",
             "alt": "Adefam Weather App",
+            "touch": "Click me!",
             "message": "3"
         },
         {
@@ -21,9 +23,11 @@
             "href": "http://msme-openshop.herokuapp.com/",
             "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
             "title": "Ecommerce App",
-            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "content": "The E-commerce App label (MSME-OpenShop) is an individual community project at GADS 2020, that aims to showcase my e-commerce skills and build innovative solutions to promote platforms and transition physical markets closer to the customers online.",
+            "content1": "The project was among the top 10 in GADS 2020 Community Project out of over 6000 participants. (https://gads.andela.com/community-projects)",
             "view": "3.8k",
             "alt": "Adefam Ecommerce App",
+            "touch": "Let Shop",
             "message": "6"
         },
         {
@@ -31,39 +35,52 @@
             "href": "https://deborasalako.web.app",
             "categories": "04 Oct 2019 3 min read",
             "title": "Event App.",
-            "content": "Designs and implements web based event program website using Bootstrap, Css, Node/Express JS, Ejs, Firebase, Firestore, Cloudinary API.",
+            "content": "The Event App was designed for my grandma's burial ceremony to display all activities, pictures, tributes and also allow family members to create accounts and profiles.",
+            "content1": "DOSApp was designed using Bootstrap, CSS, Node/Express JS, Ejs, Firebase, Firestore, Cloudinary API.",
             "view": "1.2k",
             "alt": "Adefam Event App",
+            "touch": "Say Hi",
             "message": "1"
         },
         {
-            "src": "https://miro.medium.com/max/1400/1*fygqfizATFjt6ALek2W1jg.png",
-            "href": "https://adefam.com.ng",
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1664582395/myPotfolio/Image_2_kmpohb.png",
+            "href": "http://adegbitefamosa.com.ng/",
             "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
             "title": "My Portfolio",
-            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "content": "A lot has been said concerning having a portfolio as an engineer, it took me years before I can come up with one. I was able to achieve this and also use the opportunity to learn new technology (VUE and Tailwind) to design the application while PWA was also implemented.",
+            "content1": "Although it was challenging being a new technology but my goal to have a unique, automated, and responsive Portfolio was achieved.",
             "view": "3.8k",
             "alt": "Famosa Adegbite Portfolio",
+            "touch": "About me",
             "message": "6"
         },
         {
             "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1648627937/myPotfolio/CET_LOGO_2a_p060wx.png",
-            "href": "https://myblog.adefam.com.ng/2019/09/prevent-your-facebook-account-from.html",
+            "href": "http://msme-openshop.herokuapp.com/",
             "categories": "04 Oct 2019 3 min read",
+            "subtitle": "",
             "title": "Code Evaluation Tools",
-            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "content": "A solution for creating and grading python exercises where users can create an exercise based on privileges, solve the task, and auto-grading system.",
+            "content1": "The solution was designed using NodeJS, Express, React, Postgress, Sequelize, Pivoter Tracker for user stories, and Git CI/CD.",
             "view": "1.2k",
+            "fronthref": "",
+            "front": "",
+            "backhref": "",
+            "back": "",
             "alt": "Data Scientist Network",
+            "touch": "Team Work",
             "message": "1"
         },
         {
-            "src": "https://getlogdog.com/wp-content/uploads/2015/03/facebook-account-hacked-624x393.jpg",
-            "href": "https://myblog.adefam.com.ng/2019/09/prevent-your-facebook-account-from.html",
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1664580625/myPotfolio/Image_gbucew.png",
+            "href": "http://msme-openshop.herokuapp.com/",
             "categories": "04 Oct 2019 3 min read",
             "title": "Certificate Verification Tools",
-            "content": "Designs and implements web based e-commerce site for micro, small and medium enterprise (MSME-OpenShop) using Bootstrap, Node/Express JS, MySql, Ejs, Heroku, Cloudinary API.",
+            "content": "A solution for uploading and searching for DSN-issued certificates. The project was implemented using NodeJS, Express, React, MongoDB and Mongoose.",
+            "content1": "",
             "view": "1.2k",
             "alt": "Data Scientist Network",
+            "touch": "Team Work",
             "message": "1"
         }
     ]

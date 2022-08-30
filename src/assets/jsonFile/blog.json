@@ -2,7 +2,7 @@
     "blogs": [
         {
             "heading": "Knowledge Base",
-            "subheading": "I decide to start write aticles based on challenges and problem encounter during the course of code and that I can provide solutions to in my own way"
+            "subheading": "Writing an article is not as easy as I thought, but I was able to write articles based on challenges and problems encountered with the solution provided based on my knowledge during coding. Although, I am improving on writing more articles and getting better."
         }
     ],
     "blogSlides": [
@@ -11,9 +11,10 @@
             "href": "https://dev.to/adefam/font-awesome-and-react-icons-in-react-19jc",
             "categories": "11 Mar 2021 ・Updated on 22 Mar ・3 min read",
             "title": "Font Awesome and React-Icons in React",
-            "content": "Icons are visual cues which help communicate concepts on web pages and every other application. Icons also stand as visual language for effective communication and help user interpret a concept correctly.",
+            "content": "Icons are visual cues that help communicate concepts on web pages and every other application. Icons also stand as a visual language for effective communication and help users interpret a concept correctly.",
             "view": "746",
             "message": "3",
+            "touch": "Get Insight",
             "alt":"Font Awesome and React-Icons in React"
         },
         {
@@ -21,20 +22,22 @@
             "href": "https://dev.to/adefam/create-update-add-and-delete-sequelize-migration-eoa",
             "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
             "title": "CREATE, UPDATE, ADD and DELETE SEQUELIZE MIGRATION",
-            "content": "Did you have an existing sequelize that you wish to make changes like adding more columns, delete or modify a particular column. Have you been deleting/dropping all the migration completely and re-run migrations all over again for changes to reflect?",
+            "content": "Did you have an existing sequelize that you wish to make changes like adding more columns, deleting, or modifying a particular column? Have you been deleting/dropping all the migrations completely and re-running migrations all over again for changes to reflect? If yes this article is for you.",
             "view": "3.8k",
             "message": "6",
+            "touch": "Know more",
             "alt": "CREATE, UPDATE, ADD and DELETE SEQUELIZE MIGRATION"
         },
         {
-            "src": "https://getlogdog.com/wp-content/uploads/2015/03/facebook-account-hacked-624x393.jpg",
-            "href": "https://myblog.adefam.com.ng/2019/09/prevent-your-facebook-account-from.html",
-            "categories": "04 Oct 2019 3 min read",
-            "title": "Prevent your Facebook Account from being hacked.",
-            "content": "There are several ways/techniques which hackers use to breach people’s facebook accounts. However, we can prevent our accounts from the danger and damages of unauthorized users completely or at the minimal level just by following the right instructions at the right time. Do not wait until the control of your account is taken away from you by unauthorized users, thereby tampering with your identity.",
+            "src": "https://i.morioh.com/2022/05/11/926e7252.webp",
+            "href": "https://dev.to/adefam/pwa-in-vue-vite-53a3",
+            "categories": "21 Nov 2022 10 min read",
+            "title": "PWA in VUE VITE",
+            "content": "PWA is a Progressive Web App that makes a website look and behaves like a mobile app. PWAs are built to take advantage of native mobile device features without downloading or purchasing on Play Store.....",
             "view": "1.2k",
             "message": "1",
-            "alt": "How to prevent your Facebook Account from being hacked?"
+            "touch": "Read more",
+            "alt": "pwa in vue vite"
         }
     ]
 }

@@ -23,7 +23,7 @@
     font-family: 'adefam';
     font-style: normal;
     font-weight: 200;
-    display: swap;
+    font-display: swap;
     src: url('/fonts/poppins-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
         url('/fonts/poppins-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
         url('/fonts/poppins-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -277,11 +277,11 @@ h1 {
 /* ------------------------------------End Gallary Styling------------------------------------------ */
 .shape {
   background-color: #ffa600;
-  width: 23rem;
-  height: 23rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-  margin-bottom: -40px;
-  margin-left: 0px;
+  /* margin-bottom: -40px; */
+  margin-left: 20px;
   animation: morph 10s linear infinite alternate, spin 6s linear infinite reverse;
   transform-origin: 53% 53%;
 }
@@ -293,8 +293,9 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .shape {
-    width: 13rem;
-    height: 13rem;
+    width: 7rem;
+    height: 7rem;
+    margin-left: 60px;
   }
 }
 

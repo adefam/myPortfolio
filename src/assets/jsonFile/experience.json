@@ -2,65 +2,67 @@
     "slides": [
       {
       	"id": 1,
-        "date1": "2011 - Present",
-        "title1": "Founder, Adefam Computer Infotech",
-        "content1": "Provides quality computer training and IT solutions, helping youth, individuals, companies, and businesses acquire enough ICT knowledge through well structured, standard learning materials and conducive environment, thereby making them becoming lifelong champions in IT-related skills.",
-        "link1": "Learn More",
-        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-        
-        "date2": "March 2021 - Present",
-        "title2": "Microsoft 4Afrika Skillslab Partnership 2021 Mentor, Andela",
-        "content2": "Assisting Microsoft and Andela to achieve their goals in running an ALC x Microsoft 4Afrika Skillslab Program to upskill 3000 technology upskill final year tertiary students and fresh graduates with knowledge in advanced technologies; DevOps and artificial intelligence (AI) in readiness for potential employment opportunities and increased productivity.",
-        "link2": "Learn More",
-        "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
 
-        "date3": "Mar 2020 - Jan 2021",
-        "title3": "Gads2020 Mentor, Andela",
-        "content3": "Assisted learners in providing solutions, review codebase, ensure 100% completion of projects and assessments in which over 85% of the learners were able to achieve.",
-        "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-        "link3": "Learn More" 
+        "date1": "May 2012 – June 2017",
+        "title1": " Data Biometrics Registration Officer, National Examinations Council (NECO)",
+        "content1": "Captured and registered over five thousand biometric data of Senior Secondary School Students for SSCE examination and also reported errors identified from the student’s records for proper correction and accuracy.",
+        "link1": "My Resume",
+        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+
+        "date2": "2011 - Present",
+        "title2": "Founder, Adefam Computer Infotech",
+        "content2": "Provides quality computer training and IT solutions, helped more than three thousand youths and individuals, companies, and businesses acquire enough ICT knowledge through well-structured, standard learning materials and a conducive environment, thereby making them become lifelong champions in IT-related skills.",
+        "link2": "Visit Site",
+        "href2": "http://adefam.com.ng/",
+
+        "date3": "Apr 2008 - Sept 2018",
+        "title3": "Administrative Clerk, The Church of Jesus Christ of Later-day Saints",
+        "content3": "Administered over 300 membership records, and processed financial reports using Members and Leaders Services (MLS) and Leader and Clerk Resources (LCR) applications, made sound and viable decisions for the progress of the church and trained over 20 leaders on finance and membership record keeping.",
+        "href3": "https://www.churchofjesuschrist.org/?lang=eng",
+        "link3": "Learn More"
       },
 
       {
         "id": 2,
-        "date1": "June - Present",
+
+        "date1": "June 2021 - Present",
         "title1": "Content Writer, Indeed",
-        "content1": "Providing quality computer training and IT solutions, helping youth, individuals, companies, and businesses acquire enough ICT knowledge through well structured, standard learning materials and conducive environment, thereby making them becoming lifelong champions in IT-related skills.",
-        "link1": "Learn More",
+        "content1": "Using content management tools and customer relationship management system to collate and analyze over 1000 contents for specific purposes, ensuring accuracy and up-to-date error-free report for review by sales reps, eliminating over 400 backlogs, and maximizing workflows.",
+        "link1": "My Resume",
         "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
 
-        "date2": "June 28 - Present",
+        "date2": "June 2021 - Present",
         "title2": "Software Engineer, Andela",
-        "content2": "Support team’s effort to build and deploy full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, data storage, persistence, code editor among others.",
-        "link2": "Learn More",
+        "content2": "Work with team members and partners remotely in a courteous, pleasant, professional, and efficient manner towards achieving organizational goals.",
+        "link2": "Visit Me",
         "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
 
         "date3": "Nov 2020 - May 2021",
         "title3": "Software Engineer, Data Science Nigeria",
-        "content3": "Support team’s effort to build and deploy full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, data storage, persistence, code editor among others.",
+        "content3": "Built and deployed full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, error-handler, data storage, persistence, code editor among others.",
         "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-        "link3": "Learn More"
+        "link3": "Check me out"
       },
       {
         "id": 3,
 
-        "date1": "May 2020 - Nov 2020",
-        "title1": "BuildforSDG 2020 Mentor, Andela",
-        "content1": "Guided and Unblocked Innovators in the program towards building finished and functional products.",
-        "link1": "Learn More",
-        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+        "date1": "March 2021 - Nov 2021",
+        "title1": "Mentor @ Microsoft 4Afrika Skillslab Partnership 2021, Andela",
+        "content1": "Assisted Microsoft and Andela to achieve their goals in running an ALC x Microsoft 4Afrika Skillslab Program to upskill 3000 technology upskill final year tertiary students and fresh graduates with knowledge in advanced technologies; DevOps and artificial intelligence (AI) in readiness for potential employment opportunities and increased productivity.",
+        "link1": "Know more",
+        "href1": "https://andela.com/alc/microsoft-skillslab-2021/",
 
-        "date2": "May 2012 – June 2017",
-        "title2": " Data Biometrics Registration Officer, National Examinations Council (NECO)",
-        "content2": "Captured and registered over five thousand biometric data of Senior School Students for SSCE examination and also reported errors identified from the students records for proper correction and accuracy. ",
-        "link2": "Learn More",
-        "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+        "date2": "Mar 2020 - Jan 2021",
+        "title2": "Mentor @ Google Africa Developer Scholarship (Gads) 2020, Andela",
+        "content2": "Assisted learners in providing solutions, reviewed codebase, and ensured 100% completion of projects and assessments which over 85% of the learners were able to achieve.",
+        "href2": "https://andela.com/alc/google-africa-developer-scholarship-gads/",
+        "link2": "Get info",
 
-        "date3": "Apr 2008 - Present",
-        "title3": "Administrative Clerk, The Church of Jesus Christ of Later-day Saints",
-        "content3": "Performing administrative activities of a religious oranization",
-        "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-        "link3": "Learn More"
+        "date3": "May 2020 - Nov 2020",
+        "title3": "Mentor @ BuildforSDG 2020, Andela",
+        "content3": "Guided and Unblocked Innovators towards building a functional product. Collaborated with investors, review ideas, and codebase, provide solutions and share feedback. Tractive application was designed and developed by investors using Node, Express, MongoDB, React among others.(https://tractive.herokuapp.com)",
+        "link3": "Visit Site",
+        "href3": "https://tractive.herokuapp.com"
       }
     ]
 }

@@ -11,7 +11,7 @@
         " aria-label="Global">
         <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
           <div class="flex items-center justify-between w-full md:w-auto">
-            <a href="#">
+            <a href="http://adegbitefamosa.com.ng/">
               <img v-for="image in navImage" :key="image.id" :src="image.src" :alt="image.alt"
                 class="h-8 w-auto sm:h-10" loading="lazy" />
             </a>

@@ -2,9 +2,9 @@
     "mainValue": [
         {
           "id": "1",
-          "greetings": "Hi! I'm",
-          "myName": "Famosa adegbite",
-          "status": "I am a self-taught software developer and engineer. I have a passion for programming and technology. I'd call myself a Jack of all trades when it comes to technology. I am open minded and I am ready to learn new skills.",
+          "greetings": "Hi! I am",
+          "myName": "Famosa Adegbite",
+          "status": "Self-taught website developer and Engineer. I have passion for programming and technology. I would call myself Jack of all trades when it comes to technology. I am open-minded and ready to learn new skills.👨‍💻👨‍💻👨‍💻",
          "image": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1656117940/myPotfolio/WhatsApp_Image_2022-05-26_at_2.21.31_PM_2_msiyuj.jpg",
          "alt": "adefamosa"
         }

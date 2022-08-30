@@ -1,0 +1,68 @@
+
+<head>
+  <!-- A mobile viewport Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- A Title Tag -->
+  <title>Famosa Adegbite a software & Web Developer, Database Administrator, Data Analyst & more...</title>
+  <!-- The Description Tag -->
+  <meta name="description" content="Check me out! Self-thought website developer with years of experience. Skilled in software developer, frontend, backend, database, 
+                                    data science among others. More to offer!" />
+  <!-- The Favicon -->
+  <link rel="icon" href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png" />
+  <!-- The link for apple-touch-icon tag -->
+  <link rel="apple-touch-icon" href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png" sizes="180x180">
+  <!-- The link for mask-icon Tag -->
+  <link rel="mask-icon" href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png" color="#52a8f2">
+  <!-- A theme-color Tag -->
+  <meta name="theme-color" content="#52a8f2">
+
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My title here</title>
+    <meta name="description" content="My description here">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+    <link rel="mask-icon" href="/mask-icon.svg" color="#FFFFFF">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+</head>
+  
+  
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="HTML CSS and JavaScript, Software and website developer, IT Database and Programming, Data Science and Analyst, Adefam, Computer training and mentorship ">
+  <meta name="author" content="Famosa Adegbite"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossOrigin="anonymous" />
+  
+
+
+
+    <script src="/registerSW.js"></script>
+    <script>
+      if('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' })
+        })
+      }
+
+      import { VitePWA } from 'vite-plugin-pwa'
+
+      export default defineConfig({
+            plugins: [
+                VitePWA({
+                    registerType: 'autoUpdate',
+                    injectRegister: 'inline',
+                    workbox: {
+                        globPatterns: ['**/*.{js,css,html,ico,png,svg,json,vue,txt,woff2}']
+                    },
+                })
+            ]
+        })
+    </script>
+  </head>
+
+
+
+ 

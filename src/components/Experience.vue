@@ -23,16 +23,16 @@
         </div>
 
         <!-- The Slide -->
-        <transition-group class='adefam_carousel' tag="div">
+        <transition-group class='adefam_carousel' tag="div" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <div v-for="slide in slides" class='adefam_carousel_slide' :key="slide.id">
           
             <!-- First Rows -->
             <div>
               <div class="adefam-exp-holder md:flex-nowrap">
-                <div class="md:w-64 md:mb-0 adefam-exp-date" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="md:w-64 md:mb-0 adefam-exp-date" >
                   <span class="adefam-body-date">{{slide.date1}}</span>
                 </div>
-                <div class="md:flex-grow" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="md:flex-grow" >
                   <h2 class="adefam-exp-header">{{slide.title1}}</h2>
                   <p class="adefam-body" v-bind:style="classStyle">{{slide.content1}}</p>
                   <a class="adefam-exp-link" :href="slide.href1">{{slide.link1}}
@@ -44,16 +44,16 @@
                 </div>
               </div>
             </div>
-            <hr class="my-6 border-gray-400" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" />
+            <hr class="my-6 border-gray-400"  />
 
             <!-- Second Row -->
             <div>
               <div class="adefam-exp-holder md:flex-nowrap">
-                <div class="md:w-64 md:mb-0 adefam-exp-date" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="md:w-64 md:mb-0 adefam-exp-date" >
                   <span class="adefam-body-date">{{slide.date2}}</span>
                 </div>
           
-                <div class="md:flex-grow" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="md:flex-grow" >
                   <h2 class="adefam-exp-header">{{slide.title2}}</h2>
                   <p class="adefam-body" v-bind:style="classStyle">{{slide.content2}}</p>
                   <a class="adefam-exp-link" :href="slide.href2">{{slide.link2}}
@@ -65,16 +65,16 @@
                 </div>
               </div>
             </div>
-            <hr class="my-6 border-gray-400" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" />
+            <hr class="my-6 border-gray-400"  />
         
             <!-- Third Row -->
             <div>
               <div class="adefam-exp-holder md:flex-nowrap">
-                <div class="md:w-64 md:mb-0 adefam-exp-date" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="md:w-64 md:mb-0 adefam-exp-date" >
                   <span class="adefam-body-date">{{slide.date3}}</span>
                 </div>
         
-                <div class="md:flex-grow" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="md:flex-grow" >
                   <h2 class="adefam-exp-header">{{slide.title3}}</h2>
                   <p class="adefam-body" v-bind:style="classStyle">{{slide.content3}}</p>
                   <a class="adefam-exp-link" :href="slide.href3">{{slide.link3}}

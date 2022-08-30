@@ -3,6 +3,7 @@
         {
           "id": 1,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/v1654008681/myPotfolio/IMG-20220524-WA0049_ztinwu.jpg",
+          "alt": "Famosa Adegbite Image",
           "content":"Designs and implements web based weather application with HTML, CSS, and JavaScript."
         },
         {

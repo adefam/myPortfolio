@@ -6,19 +6,22 @@
 
     </div>
     <div class="container mx-auto px-4" v-for="about in abouts" :key="about.id">
-      <div class="items-center flex flex-wrap">
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-10 z-0" data-aos="fade-up" data-aos-offset="200"
+      <!-- <div class="items-center flex flex-wrap"> -->
+      <div class="flex flex-wrap">
+
+        <div class="w-full lg:w-4/12 md:w-full ml-auto mr-auto px-4 mb-10 z-0" data-aos="fade-up" data-aos-offset="200"
           data-aos-easing="ease-in-sine" data-aos-duration="600">
           <div class="relative">
 
             <div class="shape absolute bottom-0 skew-y-12">
             </div>
-            <img :src="about.src" :alt="about.alt" class="max-w-full bottom-radius transform -rotate-5" loading="lazy" />
+            <img :src="about.src" :alt="about.alt" class="max-w-full bottom-radius transform " loading="lazy" />
 
           </div>
 
         </div>
-        <div class="w-full md:w-5/12 ml-auto mr-auto px-4 z-50" data-aos="fade-up" data-aos-offset="200"
+
+        <div class="w-full lg:w-5/12 md:w-full ml-auto mr-auto px-4 z-50" data-aos="fade-up" data-aos-offset="200"
           data-aos-easing="ease-in-sine" data-aos-duration="1000">
           <div class="md:pr-12">
             <div
@@ -32,6 +35,8 @@
             </p>
           </div>
         </div>
+
+        
       </div>
     </div>
   </section>

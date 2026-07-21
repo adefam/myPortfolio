@@ -4,7 +4,7 @@
   <div class="container mx-auto" >
     <div class="flex flex-wrap w-full mb-4 flex-col items-center text-center">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-blog-top" v-bind:style="classStyle">
-          Gallary
+          Gallery
       </h1>
 
     </div>

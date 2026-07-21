@@ -2,67 +2,131 @@
     "slides": [
       {
       	"id": 1,
+        "entries": [
+            {
+                "date": "Jan 2022 – Mar 2022",
+                "title": " React Front-End Developer, IBCSCORP",
+                "content": "Developed and enhanced the front-end of a CMS application using React.js, Gatsby, and TypeScript, improving website performance from 18% to over 50% and optimizing mobile responsiveness.",
+                "link": {
+                  "text": "Visit Ibcscorp",
+                  "url": "#"
+                }
+            },
+            {
+                "date": "May 2012 – June 2017",
+                "title": " Data Biometrics Registration Officer, National Examinations Council (NECO)",
+                "content": "Captured and registered over five thousand biometric data of Senior Secondary School Students for SSCE examination and also reported errors identified from the student’s records for proper correction and accuracy.",
+                "link": {
+                  "text": "My Resume",
+                  "url": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true"
+                }
+            },
 
-        "date1": "May 2012 – June 2017",
-        "title1": " Data Biometrics Registration Officer, National Examinations Council (NECO)",
-        "content1": "Captured and registered over five thousand biometric data of Senior Secondary School Students for SSCE examination and also reported errors identified from the student’s records for proper correction and accuracy.",
-        "link1": "My Resume",
-        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+            {
+              "date": "2011 - Present",
+              "title": "Founder, Adefam Computer Infotech",
+              "content": "Provides quality computer training and IT solutions, helped more than three thousand youths and individuals, companies, and businesses acquire enough ICT knowledge through well-structured, standard learning materials and a conducive environment, thereby making them become lifelong champions in IT-related skills.",
+              "link": {
+                "text": "Visit Site",
+                "url": "http://adefam.com.ng/"
+              }
+            },
 
-        "date2": "2011 - Present",
-        "title2": "Founder, Adefam Computer Infotech",
-        "content2": "Provides quality computer training and IT solutions, helped more than three thousand youths and individuals, companies, and businesses acquire enough ICT knowledge through well-structured, standard learning materials and a conducive environment, thereby making them become lifelong champions in IT-related skills.",
-        "link2": "Visit Site",
-        "href2": "http://adefam.com.ng/",
-
-        "date3": "Apr 2008 - Sept 2018",
-        "title3": "Administrative Clerk, The Church of Jesus Christ of Later-day Saints",
-        "content3": "Administered over 300 membership records, and processed financial reports using Members and Leaders Services (MLS) and Leader and Clerk Resources (LCR) applications, made sound and viable decisions for the progress of the church and trained over 20 leaders on finance and membership record keeping.",
-        "href3": "https://www.churchofjesuschrist.org/?lang=eng",
-        "link3": "Learn More"
+            {
+              "date": "Apr 2008 - Sept 2018",
+              "title": "Administrative Clerk, The Church of Jesus Christ of Later-day Saints",
+              "content": "Administered over 300 membership records, and processed financial reports using Members and Leaders Services (MLS) and Leader and Clerk Resources (LCR) applications, made sound and viable decisions for the progress of the church and trained over 20 leaders on finance and membership record keeping.",
+              "link": {
+                "url": "https://www.churchofjesuschrist.org/?lang=eng",
+                "text": "LDS Site"
+              }
+            }
+        ]
       },
 
       {
         "id": 2,
-
-        "date1": "June 2021 - Present",
-        "title1": "Content Writer, Indeed",
-        "content1": "Using content management tools and customer relationship management system to collate and analyze over 1000 contents for specific purposes, ensuring accuracy and up-to-date error-free report for review by sales reps, eliminating over 400 backlogs, and maximizing workflows.",
-        "link1": "My Resume",
-        "href1": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-
-        "date2": "June 2021 - Present",
-        "title2": "Software Engineer, Andela",
-        "content2": "Work with team members and partners remotely in a courteous, pleasant, professional, and efficient manner towards achieving organizational goals.",
-        "link2": "Visit Me",
-        "href2": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-
-        "date3": "Nov 2020 - May 2021",
-        "title3": "Software Engineer, Data Science Nigeria",
-        "content3": "Built and deployed full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, error-handler, data storage, persistence, code editor among others.",
-        "href3": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
-        "link3": "Check me out"
+        "entries": [
+          {
+            "date": "Feb 2023 - Mar 2024",
+            "title": "Frontend Developer, Ocuwell",
+            "content": "Designed and enhanced the frontend of the Ocuwell project, optimized performance, implemented essential APIs, and utilized Next.js, Tailwind, Node.js, React.js, GitHub, ClickUp, and more for a seamless user experience.",
+            "link": {
+              "text": "Ocuwell Project",
+              "url": "https://github.com/adefam/ocuwell-project"
+            }
+          },
+          {
+            "date": "Jun 2021 - Dec 2022",
+            "title": "Content Writer, Indeed",
+            "content": "Using content management tools and customer relationship management system to collate and analyze over 1000 contents for specific purposes, ensuring accuracy and up-to-date error-free report for review by sales reps, eliminating over 400 backlogs, and maximizing workflows.",
+            "link": {
+              "text": "My Resume",
+              "url": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true"
+            }
+          },
+          {
+            "date": "Jun 2021 - Dec 2022",
+            "title": "Software Engineer, Andela",
+            "content": "Work with team members and partners remotely in a courteous, pleasant, professional, and efficient manner towards achieving organizational goals.",
+            "link": {
+              "text": "Visit Me",
+              "url": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true"
+            }
+          },
+          {
+            "date": "Nov 2020 - May 2021",
+            "title": "Software Engineer, Data Science Nigeria",
+            "content": "Built and deployed full-stack innovative data-driven software (Code Evaluation Tool) for grading python exercises and (Certificate Verification Tool) for verifying certificates issued by the organization with features like authentication, authorization, validations, error-handler, data storage, persistence, code editor among others.",
+            "link": {
+              "url": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true",
+              "text": "Check me out"
+            }
+          }
+        ]
       },
+
+
       {
         "id": 3,
-
-        "date1": "March 2021 - Nov 2021",
-        "title1": "Mentor @ Microsoft 4Afrika Skillslab Partnership 2021, Andela",
-        "content1": "Assisted Microsoft and Andela to achieve their goals in running an ALC x Microsoft 4Afrika Skillslab Program to upskill 3000 technology upskill final year tertiary students and fresh graduates with knowledge in advanced technologies; DevOps and artificial intelligence (AI) in readiness for potential employment opportunities and increased productivity.",
-        "link1": "Know more",
-        "href1": "https://andela.com/alc/microsoft-skillslab-2021/",
-
-        "date2": "Mar 2020 - Jan 2021",
-        "title2": "Mentor @ Google Africa Developer Scholarship (Gads) 2020, Andela",
-        "content2": "Assisted learners in providing solutions, reviewed codebase, and ensured 100% completion of projects and assessments which over 85% of the learners were able to achieve.",
-        "href2": "https://andela.com/alc/google-africa-developer-scholarship-gads/",
-        "link2": "Get info",
-
-        "date3": "May 2020 - Nov 2020",
-        "title3": "Mentor @ BuildforSDG 2020, Andela",
-        "content3": "Guided and Unblocked Innovators towards building a functional product. Collaborated with investors, review ideas, and codebase, provide solutions and share feedback. Tractive application was designed and developed by investors using Node, Express, MongoDB, React among others.(https://tractive.herokuapp.com)",
-        "link3": "Visit Site",
-        "href3": "https://tractive.herokuapp.com"
+        "entries": [
+          {
+            "date": "Nov 2022 - Jan 2023",
+            "title": "Frontend Developer, The RegenLab for Travel",
+            "content": "Designed, developed, and optimized an organizational website, resolving bugs, enhancing SEO, and improving responsiveness for mobile devices.",
+            "link": {
+              "text": "Know more",
+              "url": "https://www.theregenlab.com/"
+            }
+          },
+          {
+            "date": "March 2021 - Nov 2021",
+            "title": "Mentor @ Microsoft 4Afrika Skillslab Partnership 2021, Andela",
+            "content": "Assisted Microsoft and Andela to achieve their goals in running an ALC x Microsoft 4Afrika Skillslab Program to upskill 3000 technology upskill final year tertiary students and fresh graduates with knowledge in advanced technologies; DevOps and artificial intelligence (AI) in readiness for potential employment opportunities and increased productivity.",
+            "link": {
+              "text": "Know more",
+              "url": "https://andela.com/alc/microsoft-skillslab-2021/"
+            }
+          },
+          {
+            "date": "Mar 2020 - Jan 2021",
+            "title": "Mentor @ Google Africa Developer Scholarship (Gads) 2020, Andela",
+            "content": "Assisted learners in providing solutions, reviewed codebase, and ensured 100% completion of projects and assessments which over 85% of the learners were able to achieve.",
+            "link": {
+              "url": "https://andela.com/alc/google-africa-developer-scholarship-gads/",
+              "text": "Get info"
+            }
+          },
+          {
+            "date": "May 2020 - Nov 2020",
+            "title": "Mentor @ BuildforSDG 2020, Andela",
+            "content": "Guided and Unblocked Innovators towards building a functional product. Collaborated with investors, review ideas, and codebase, provide solutions and share feedback. Tractive application was designed and developed by investors using Node, Express, MongoDB, React among others.(https://tractive.herokuapp.com)",
+            "link": {
+              "text": "Visit Site",
+              "url": "https://github.com/adefam/Tractive"
+            }
+          }
+        ]
       }
     ]
 }

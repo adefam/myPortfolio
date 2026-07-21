@@ -22,10 +22,10 @@
                   <h5 class="adefam-title">{{ projectSlide.subtitle }}</h5>
                   <p class="adefam-content">{{ projectSlide.content }}</p>
                   <p class="adefam-content">{{ projectSlide.content1 }}</p>
-                  <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.fronthref">{{projectSlide.front}}</a>
-                  <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.backhref">{{projectSlide.back}}</a>
+                  <a class="adefam-bp-link md:mb-2 lg:mb-0" aria-label="project" :href="projectSlide.fronthref">{{projectSlide.front}}</a>
+                  <a class="adefam-bp-link md:mb-2 lg:mb-0" aria-label="project" :href="projectSlide.backhref">{{projectSlide.back}}</a>
                   <div class="flex items-center flex-wrap ">
-                    <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.href">{{projectSlide.touch}}
+                    <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="projectSlide.href" aria-label="project">{{projectSlide.touch}}
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>

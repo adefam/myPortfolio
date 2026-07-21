@@ -36,7 +36,7 @@
             "content": "PWA is a Progressive Web App that makes a website look and behaves like a mobile app. PWAs are built to take advantage of native mobile device features without downloading or purchasing on Play Store.....",
             "view": "1.2k",
             "message": "1",
-            "touch": "Read more",
+            "touch": "check blog",
             "alt": "pwa in vue vite"
         }
     ]

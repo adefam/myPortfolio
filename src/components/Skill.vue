@@ -71,7 +71,7 @@
                   </svg>
               </div>
 
-              <div class="xl:w-1/3 md:w-1/2 w-1/2 p-4 items-center" title="PUG" aria-label="pug">
+              <div class="xl:w-1/3 md:w-1/2 w-1/2 p-4 items-center" title="PUG">
                   
                 <svg width="56px" height="56px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                   <g>

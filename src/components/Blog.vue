@@ -22,7 +22,7 @@
                   <h1 class="adefam-title">{{ blogSlide.title }}</h1>
                   <p class="adefam-content">{{ blogSlide.content }}</p>
                   <div class="flex items-center flex-wrap ">
-                    <a class="adefam-bp-link md:mb-2 lg:mb-0" :href="blogSlide.href">{{blogSlide.touch}}
+                    <a class="adefam-bp-link md:mb-2 lg:mb-0" aria-label="blog" :href="blogSlide.href">{{blogSlide.touch}}
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -73,7 +73,7 @@ export default {
                 "background-color": "#00000060"
             },
             classStyle2: {
-                "color":"#32529B"
+                "color":"#ffffff"
             }
       }
     },
@@ -84,7 +84,7 @@ export default {
     },
     classStyle2() {
       if (this.hour >= 20 || this.hour <= 5) return { "color":"#ffffff" };
-      return { "color":"#32529B" };
+      return { "color":"#ffffff" };
     }
   },
   methods: {

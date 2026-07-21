@@ -20,7 +20,7 @@
         },
         {
             "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1648626545/myPotfolio/Shopping_Cart-removebg-preview_liryh5.png",
-            "href": "http://msme-openshop.herokuapp.com/",
+            "href": "https://github.com/adefam/MSME-OpenShop",
             "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
             "title": "Ecommerce App",
             "content": "The E-commerce App label (MSME-OpenShop) is an individual community project at GADS 2020, that aims to showcase my e-commerce skills and build innovative solutions to promote platforms and transition physical markets closer to the customers online.",
@@ -47,8 +47,8 @@
             "href": "http://adegbitefamosa.com.ng/",
             "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
             "title": "My Portfolio",
-            "content": "A lot has been said concerning having a portfolio as an engineer, it took me years before I can come up with one. I was able to achieve this and also use the opportunity to learn new technology (VUE and Tailwind) to design the application while PWA was also implemented.",
-            "content1": "Although it was challenging being a new technology but my goal to have a unique, automated, and responsive Portfolio was achieved.",
+            "content": "A lot has been said concerning having a portfolio as an engineer, I was able to achieve this and also use the opportunity to implement different technology (VUE and Tailwind) to design the application while PWA was also implemented.",
+            "content1": "Although it was challenging but my goal to have a unique, automated, and responsive Portfolio was achieved.",
             "view": "3.8k",
             "alt": "Famosa Adegbite Portfolio",
             "touch": "About me",
@@ -56,7 +56,7 @@
         },
         {
             "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1648627937/myPotfolio/CET_LOGO_2a_p060wx.png",
-            "href": "http://msme-openshop.herokuapp.com/",
+            "href": "https://github.com/adefam/code-evaluation-tools-api/tree/develop",
             "categories": "04 Oct 2019 3 min read",
             "subtitle": "",
             "title": "Code Evaluation Tools",
@@ -73,7 +73,7 @@
         },
         {
             "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1664580625/myPotfolio/Image_gbucew.png",
-            "href": "http://msme-openshop.herokuapp.com/",
+            "href": "https://github.com/adefam/certificate_verification",
             "categories": "04 Oct 2019 3 min read",
             "title": "Certificate Verification Tools",
             "content": "A solution for uploading and searching for DSN-issued certificates. The project was implemented using NodeJS, Express, React, MongoDB and Mongoose.",

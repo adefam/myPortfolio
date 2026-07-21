@@ -2,11 +2,13 @@
     "navigation": [
         { 
             "name": "+234 803-2366-804", 
-            "href": "tel:+2348032366804" 
+            "href": "tel:+2348032366804",
+            "icon": "fas fa-phone"
         },
         { 
             "name": "adefamosa@gmail.com", 
-            "href": "mailto:adefamosa@gmail.com" 
+            "href": "mailto:adefamosa@gmail.com",
+            "icon": "fas fa-envelope"
         }
       ],
 
@@ -18,45 +20,13 @@
       ],
 
       "mobileNav": [
-        { 
-            "name": "Home", 
-            "href": "#Home", 
-            "icon": "fas fa-laptop-house pr-3" 
-        },
-        { 
-            "name": "About me", 
-            "href": "#About-Me", 
-            "icon": "fas fa-user-edit pr-3" 
-        },
-        { 
-            "name": "Education", 
-            "href": "#Qualification", 
-            "icon": "fas fa-user-graduate pr-3" 
-        },
-        { 
-            "name": "Experience", 
-            "href": "#Experience", 
-            "icon": "fas fa-briefcase pr-3" 
-        },
-        { 
-            "name": "Blog", 
-            "href": "#Blog", 
-            "icon": "fas fa-blog pr-3" 
-        },
-        { 
-            "name": "Skills", 
-            "href": "#Skills", 
-            "icon": "fas fa-chess-knight pr-3" 
-        },
-        { 
-            "name": "Project", 
-            "href": "#Project", 
-            "icon": "fas fa-folder-open pr-3" 
-        },
-        { 
-            "name": "Contact me", 
-            "href": "#Footer", 
-            "icon": "fas fa-shoe-prints pr-3" 
-        }
+        { "name": "Home", "href": "#Home", "icon": "fas fa-laptop-house pr-3" },
+        { "name": "About me", "href": "#About-Me", "icon": "fas fa-user-edit pr-3" },
+        { "name": "Education", "href": "#Qualification", "icon": "fas fa-user-graduate pr-3" },
+        { "name": "Experience", "href": "#Experience", "icon": "fas fa-briefcase pr-3" },
+        { "name": "Blog", "href": "#Blog", "icon": "fas fa-blog pr-3" },
+        { "name": "Skills", "href": "#Skills", "icon": "fas fa-chess-knight pr-3" },
+        { "name": "Project", "href": "#Project", "icon": "fas fa-folder-open pr-3" },
+        { "name": "Contact me", "href": "#Footer", "icon": "fas fa-shoe-prints pr-3" }
       ]
 }

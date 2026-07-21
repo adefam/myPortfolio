@@ -3,12 +3,12 @@
   <!-- <Menu /> -->
   <Main />
   <About :abouts='aboutContent' :aboutParas='aboutParagraph' />
-  <Education :educations='education' :educationColumn1s='educationColumn1' :educationColumn2s='educationColumn2' />
+  <Project />
   <Experience />
   <Blog />
   <Skill />
+  <Education :educations='education' :educationColumn1s='educationColumn1' :educationColumn2s='educationColumn2' />
   <Gallary />
-  <Project />
   <Comment />
 
 </div>
@@ -33,11 +33,11 @@ export default {
   components: {
     Main,
     About,
-    Education,
+    Project,
     Experience,
     Blog,
     Skill,
-    Project,
+    Education,
     Gallary,
     Comment,
     // Menu

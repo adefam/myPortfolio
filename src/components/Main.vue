@@ -19,7 +19,7 @@
               <span class="adefam-myName text-3xl xl:text-6xl sm:text-4xl md:text-5xl">{{ mainSlide.myName }}</span>
             </div>
 
-            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0 pb-6 adefam-status" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0 pb-6 adefam-status" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" v-bind:style="classStyle">
               {{ mainSlide.status }}
             </p>
 
@@ -65,8 +65,8 @@ export default {
   },
    computed: {
     classStyle() {
-      if (this.hour >= 20 || this.hour <= 5) return { "background-color": "#000000", "fill":"#000000" };
-      return { "background-color": "#ffffff", "fill":"#ffffff" };
+      if (this.hour >= 20 || this.hour <= 5) return { "background-color": "#000000", "fill":"#000000", "color":"#9CA3AF" };
+      return { "background-color": "#ffffff", "fill":"#ffffff", "color":"#4B5563" };
     }
   }
 }

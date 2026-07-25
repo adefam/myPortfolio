@@ -6,6 +6,7 @@
     :href="link.to"
     type="button"
     target="blank"
+    :aria-label="link.ariaLabel"
   >
      <i :class="link.icon "></i>
   </a>       

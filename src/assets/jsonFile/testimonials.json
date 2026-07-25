@@ -1,0 +1,28 @@
+{
+  "testimonials": [
+    {
+      "name": "Ashkan Eliasy",
+      "initials": "AE",
+      "role": "Founder & Managing Director, Nuvisy Strategic Advisory",
+      "context": "Managed Adegbite directly at Ocuwell · Jul 2023",
+      "text": "Adegbite was a key player in developing Ocuwell's HealthTech frontend web app. He works with great attention to detail, making sure every task is done right, and is good at spotting and fixing issues before they become big problems. His communication is clear and timely, and his technical and teamwork skills make him a standout, reliable contributor.",
+      "link": "https://www.linkedin.com/in/adefam/"
+    },
+    {
+      "name": "Daniel Opiyo",
+      "initials": "DO",
+      "role": "Technical Delivery Leader, Software & Data Engineer",
+      "context": "Worked with Adegbite on the same team at Indeed · Feb 2023",
+      "text": "Famosa was an instrumental member of my software engineering team, where he worked with me for a year and a half on a project for Indeed. He consistently demonstrated exceptional technical skills, a strong work ethic, and a commitment to delivering high-quality results, with a positive, collaborative approach that made him a pleasure to work with.",
+      "link": "https://www.linkedin.com/in/adefam/"
+    },
+    {
+      "name": "Sonia Teruel Avecilla",
+      "initials": "ST",
+      "role": "Founder, The RegenLab for Travel",
+      "context": "Managed Adegbite directly at RegenLab · Feb 2023",
+      "text": "Adegbite is a reliable and dependable person. He helped me add new sections and content to the organisation's website across several languages, and completed the project as agreed. I highly recommend him.",
+      "link": "https://www.linkedin.com/in/adefam/"
+    }
+  ]
+}

@@ -3,13 +3,13 @@
   <!-- <Menu /> -->
   <Main />
   <About :abouts='aboutContent' :aboutParas='aboutParagraph' />
-  <Education :educations='education' :educationColumn1s='educationColumn1' :educationColumn2s='educationColumn2' />
+  <Project />
   <Experience />
+  <Testimonials />
   <Blog />
   <Skill />
+  <Education :educations='education' :educationColumn1s='educationColumn1' :educationColumn2s='educationColumn2' />
   <Gallary />
-  <Project />
-  <Comment />
 
 </div>
 </template>
@@ -23,7 +23,7 @@ import Blog from "@/components/Blog.vue"
 import Skill from "@/components/Skill.vue"
 import Project from "@/components/Project.vue"
 import Gallary from "@/components/Gallary.vue"
-import Comment from "@/components/Comment.vue"
+import Testimonials from "@/components/Testimonials.vue"
 
 import jsonEducation from '@/assets/jsonFile/education.json'
 import jsonAbout from '@/assets/jsonFile/about.json'
@@ -33,13 +33,13 @@ export default {
   components: {
     Main,
     About,
-    Education,
+    Project,
     Experience,
+    Testimonials,
     Blog,
     Skill,
-    Project,
+    Education,
     Gallary,
-    Comment,
     // Menu
   },
 

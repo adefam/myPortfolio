@@ -6,13 +6,23 @@
             "emailhref": "mailto:adefamosa@gmail.com",
 
             "phoneheader": "Phone:",
-            "phone": "+234-803-2366-804",
-            "phonehref": "tel:+2348032366804",
+            "phones": [
+                {
+                    "label": "+234 803-2366-804 (WhatsApp – Nigeria)",
+                    "href": "https://wa.me/2348032366804?text=Hi%20Famosa%2C%20let's%20connect",
+                    "whatsapp": true
+                },
+                {
+                    "label": "+44 7831 058889 (WhatsApp – UK)",
+                    "href": "https://wa.me/447831058889?text=Hi%20Famosa%2C%20let's%20connect",
+                    "whatsapp": true
+                }
+            ],
 
             "followheader": "Follow me!",
 
             "message": "Want to know more about me, build something awesome or collaborate?",
-            "messageheader": "Send me message!",
+            "messageheader": "Send me a message!",
 
             "name": "Famosa Adegbite",
             "namehref": "http://adegbitefamosa.com.ng/"

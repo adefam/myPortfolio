@@ -7,37 +7,31 @@
     ],
     "blogSlides": [
         {
-            "src": "https://img.freepik.com/free-vector/social-media-icons-set-isolated-gray-background_71374-712.jpg?size=626&ext=jpg",
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1784888135/myPotfolio/Untitled_design_4_cry3h4.png",
             "href": "https://dev.to/adefam/font-awesome-and-react-icons-in-react-19jc",
-            "categories": "11 Mar 2021 ・Updated on 22 Mar ・3 min read",
+            "categories": "Mar 11, 2021 · 3 min read",
             "title": "Font Awesome and React-Icons in React",
             "content": "Icons are visual cues that help communicate concepts on web pages and every other application. Icons also stand as a visual language for effective communication and help users interpret a concept correctly.",
-            "view": "746",
-            "message": "3",
-            "touch": "Get Insight",
-            "alt":"Font Awesome and React-Icons in React"
+            "touch": "Read Article",
+            "alt": "Font Awesome and React-Icons in React cover image"
         },
         {
-            "src": "https://miro.medium.com/max/1400/1*fygqfizATFjt6ALek2W1jg.png",
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1784891901/myPotfolio/Untitled_design_5_ooslpo.png",
             "href": "https://dev.to/adefam/create-update-add-and-delete-sequelize-migration-eoa",
-            "categories": "12 Jan 2021 ・Updated on 11 Mar ・5 min read",
-            "title": "CREATE, UPDATE, ADD and DELETE SEQUELIZE MIGRATION",
-            "content": "Did you have an existing sequelize that you wish to make changes like adding more columns, deleting, or modifying a particular column? Have you been deleting/dropping all the migrations completely and re-running migrations all over again for changes to reflect? If yes this article is for you.",
-            "view": "3.8k",
-            "message": "6",
-            "touch": "Know more",
-            "alt": "CREATE, UPDATE, ADD and DELETE SEQUELIZE MIGRATION"
+            "categories": "Jan 12, 2021 · 5 min read",
+            "title": "Create, Update, Add and Delete Sequelize Migrations",
+            "content": "Did you have an existing Sequelize setup you wish to make changes to, like adding, deleting, or modifying a column? This article walks through it.",
+            "touch": "Read Article",
+            "alt": "Sequelize migrations guide cover image"
         },
         {
-            "src": "https://i.morioh.com/2022/05/11/926e7252.webp",
+            "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1784892261/myPotfolio/VueJs.png",
             "href": "https://dev.to/adefam/pwa-in-vue-vite-53a3",
-            "categories": "21 Nov 2022 10 min read",
-            "title": "PWA in VUE VITE",
-            "content": "PWA is a Progressive Web App that makes a website look and behaves like a mobile app. PWAs are built to take advantage of native mobile device features without downloading or purchasing on Play Store.....",
-            "view": "1.2k",
-            "message": "1",
-            "touch": "Read more",
-            "alt": "pwa in vue vite"
+            "categories": "Nov 21, 2022 · 10 min read",
+            "title": "PWA in Vue Vite",
+            "content": "A Progressive Web App makes a website look and behave like a mobile app, taking advantage of native device features without an app-store download.",
+            "touch": "Read Article",
+            "alt": "PWA in Vue Vite cover image"
         }
     ]
 }

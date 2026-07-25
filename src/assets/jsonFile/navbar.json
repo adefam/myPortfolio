@@ -20,7 +20,7 @@
       ],
 
       "mobileNav": [
-        { "name": "Home", "href": "#Home", "icon": "fas fa-laptop-house pr-3" },
+        { "name": "Home", "href": "#Home", "icon": "fas fa-laptop-house" },
         { "name": "About me", "href": "#About-Me", "icon": "fas fa-user-edit pr-3" },
         { "name": "Education", "href": "#Qualification", "icon": "fas fa-user-graduate pr-3" },
         { "name": "Experience", "href": "#Experience", "icon": "fas fa-briefcase pr-3" },

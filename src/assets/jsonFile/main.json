@@ -2,11 +2,18 @@
     "mainValue": [
         {
           "id": "1",
-          "greetings": "Hi! I am",
+          "greetings": "Hi, I'm",
           "myName": "Famosa Adegbite",
-          "status": "Self-taught website developer and Engineer. I have passion for programming and technology. I would call myself Jack of all trades when it comes to technology. I am open-minded and ready to learn new skills.👨‍💻👨‍💻👨‍💻",
-         "image": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1656117940/myPotfolio/WhatsApp_Image_2022-05-26_at_2.21.31_PM_2_msiyuj.jpg",
-         "alt": "adefamosa"
+          "roles": [
+            "Software Engineer (Frontend)",
+            "React & Next.js Developer",
+            "Building HealthTech & EdTech Products"
+          ],
+          "status": "Software Engineer (Frontend) with 6+ years building HealthTech, EdTech, and enterprise applications in React, Next.js, and TypeScript, from secure authentication systems to role-based dashboards used by thousands of people.",
+          "image": "https://res.cloudinary.com/famosa-adegbite/image/upload/f_auto,q_auto,w_800,c_fill,g_face/v1784678273/MyPortfolio_image2.png",
+          "avatarImage": "https://res.cloudinary.com/famosa-adegbite/image/upload/c_thumb,g_face,w_400,h_400,q_auto,f_auto/v1784678273/MyPortfolio_image2.png",
+          "alt": "adefamosa"
         }
        ]
 }
+

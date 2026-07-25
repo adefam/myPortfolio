@@ -1,169 +1,220 @@
 <template>
-  <div class="bg" v-bind:style="classStyle">
-    <section class="max-w-7xl body-font overflow-hidden mx-auto" id="Experience">
-      <div class="px-5 pb-20 pt-20 mx-auto">
-        <div class="px-1 py-3 mx-auto flex items-center md:flex-row ">
-          <div class="flex flex-col ml-5 md:pr-10 md:mb-0 mb-4 pr-0 w-full md:w-auto md:text-left" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-            <h1 class="md:text-3xl text-2xl font-medium title-font text-top" v-bind:style="classStyle">Work Experience</h1>
+  <div class="experience-gradient overflow-x-hidden" :style="classStyle" id="Experience">
+    <section class="max-w-5xl body-font mx-auto py-20 px-5">
+      <span class="adefam-eyebrow">Experience</span>
+      <h2 class="adefam-heading text-white mt-2 mb-12">Work Experience</h2>
+
+      <div class="adefam-timeline">
+        <div v-for="(role, index) in roles" :key="role.title" class="adefam-timeline-item">
+          <div class="adefam-timeline-marker">
+            <span class="adefam-timeline-dot"></span>
+            <span v-if="index < roles.length - 1" class="adefam-timeline-line"></span>
           </div>
 
-          <!-- Bottom -->
-          <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
-            <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none carousel-controls__button"  @click="previous" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" id="left" aria-label="left">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z" />
-              </svg>
-            </button>
-            <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none carousel-controls__button" @click="next" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" id="right" aria-label="right">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M4,10V14H13L9.5,17.5L11.92,19.92L19.84,12L11.92,4.08L9.5,6.5L13,10H4Z" />
-              </svg>
-            </button>
-          </div>
-        </div>
+          <div class="adefam-timeline-content">
+            <span class="adefam-exp-date">{{ role.period }}</span>
+            <h3 class="adefam-exp-header">
+              {{ role.title }}
+              <span v-if="role.location" class="adefam-exp-location"> · {{ role.location }}</span>
+            </h3>
 
+            <ul class="adefam-exp-bullets">
+              <li v-for="bullet in role.bullets" :key="bullet">{{ bullet }}</li>
+            </ul>
 
-         <!-- Dynamic Slides -->
-         <transition-group
-          class="adefam_carousel"
-          tag="div"
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="600"
-          @mouseenter="pauseAutoSlide" 
-          @mouseleave="startAutoSlide"
-        >
-          <!-- Loop through slides -->
-          <div v-for="slide in slides" class="adefam_carousel_slide" :key="slide.id">
-            <!-- Loop through entries in each slide -->
-            <div
-              v-for="(entry, index) in slide.entries"
-              class="my-2"
-              :key="entry.title"
-            >
-              <div class="adefam-exp-holder md:flex-nowrap">
-                <div class="md:w-64 md:mb-0 adefam-exp-date">
-                  <span class="adefam-body-date">{{ entry.date }}</span>
-                </div>
-                <div class="md:flex-grow">
-                  <h2 class="adefam-exp-header">{{ entry.title }}</h2>
-                  <p class="adefam-body" v-bind:style="classStyle">{{ entry.content }}</p>
-                  <a class="adefam-exp-link" v-if="entry.link" :href="entry.link.url">
-                    {{ entry.link.text }}
-                    <svg
-                      class="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Conditional HR -->
-              <hr
-                v-if="index < slide.entries.length - 1"
-                class="my-3 border-gray-400"
-              />
+            <div class="adefam-exp-links">
+              <a v-if="role.link" :href="role.link" target="_blank" rel="noopener noreferrer" class="adefam-exp-link">
+                {{ role.linkText || "Visit" }}
+                <svg class="w-4 h-4 ml-1" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <a v-if="role.video" :href="role.video" target="_blank" rel="noopener noreferrer" class="adefam-exp-link">
+                <i class="fab fa-youtube mr-1" aria-hidden="true"></i> Watch Demo
+              </a>
             </div>
           </div>
-        </transition-group>
-  
-    
-    
-    
-    
+        </div>
       </div>
-    </section>  
 
+      <div v-if="community && community.length" class="adefam-community">
+        <h3 class="adefam-community-heading">Community & Mentorship</h3>
+        <div class="adefam-community-grid">
+          <div v-for="item in community" :key="item.title" class="adefam-community-card">
+            <span class="adefam-exp-date">{{ item.period }}</span>
+            <h4 class="adefam-community-title">{{ item.title }}</h4>
+            <p class="adefam-community-desc">{{ item.description }}</p>
+            <a v-if="item.link" :href="item.link" target="_blank" rel="noopener noreferrer" class="adefam-exp-link">
+              {{ item.linkText || "Learn more" }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-
-  import jsonExperience from '../assets/jsonFile/experience.json'
+import jsonExperience from "../assets/jsonFile/experience.json";
 
 export default {
-    data() {
-       return {
-         slides: jsonExperience.slides,
-         hour: new Date().getHours(),
-         autoSlideInterval: null,
-      classStyle: {
-        "background-color": "#ffffff",
-                "color":"#000000"
-      }
-        }
-    },
-    computed: {
-    classStyle() {
-      if (this.hour >= 20 || this.hour <= 5) return { "background-color": "#000000", "color":"#ffffff" };
-      return { "background-color": "#ffffff", "color":"#000000" };
+  data() {
+    return {
+      roles: jsonExperience.roles,
+      community: jsonExperience.community,
+      hour: new Date().getHours(),
+    };
+  },
+  computed: {
+  classStyle() {
+    if (this.hour >= 20 || this.hour <= 5) {
+      return { "background-image": "linear-gradient(135deg, #000000, #0b1120)" };
     }
+    return { "background-image": "linear-gradient(135deg, #0b3559, #061a35)" };
   },
-  mounted() {
-    this.startAutoSlide(); // Start the auto-slide when the component mounts
-  },
-  beforeDestroy() {
-    this.stopAutoSlide(); // Stop the auto-slide timer when the component is destroyed
-  },
-  methods: {
-  	next() {
-    	const first = this.slides.shift();
-      this.slides = this.slides.concat(first);
-      this.restartAutoSlide();
-    },
-  	previous() {
-    	const last = this.slides.pop();
-      this.slides = [last].concat(this.slides);
-      this.restartAutoSlide();
-    },
-
-    // Automatically slide to the next item at random intervals
-    startAutoSlide() {
-      this.stopAutoSlide();
-      const randomTime = this.getRandomInterval();
-      this.autoSlideInterval = setTimeout(() => {
-        this.startAutoSlide(); // Restart the auto-slide with a new random interval
-        this.next(); // Slide to the next item
-      }, randomTime);
-    },
-
-    pauseAutoSlide() {
-    this.stopAutoSlide(); // Clear the interval to stop sliding
-  },
-
-    // Stop the automatic sliding
-    stopAutoSlide() {
-      if (this.autoSlideInterval) {
-        clearTimeout(this.autoSlideInterval);
-        this.autoSlideInterval = null;
-      }
-    },
-
-    // Restart the auto-slide after manual interaction
-    restartAutoSlide() {
-      this.stopAutoSlide();
-      this.startAutoSlide();
-    },
-
-    // Generate a random interval between 3 and 7 seconds
-    getRandomInterval() {
-      return Math.floor(Math.random() * (7000 - 3000 + 1)) + 3000;
-    },
-
-
-  }
+},
 };
 </script>
 
 <style scoped>
-.bg{background:#fff}h2{font-size:24px}.adefam_carousel{display:flex;justify-content:center;align-items:center;overflow:hidden}.adefam_carousel_slide{flex:0 0 100%;display:flex;flex-direction:column;justify-content:center;padding:25px;transition:.3s;margin:5px 0}.adefam_carousel_column{display:flex;flex-wrap:wrap;padding:1rem 0}.carousel-controls__button{cursor:pointer;background:orange;border:0;color:#fff;border-radius:3px;padding:5px 10px;font-size:18px}.carousel-controls__button:hover{background:#ffa60093}
+.experience-gradient {
+  background-image: linear-gradient(135deg, #0b3559, #061a35);
+}
+
+.adefam-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #061a35;
+  background: #ffb84d;
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(255, 184, 77, 0.35);
+}
+.adefam-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.adefam-timeline {
+  position: relative;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+.adefam-timeline-item {
+  display: flex;
+  gap: 1.5rem;
+}
+.adefam-timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.adefam-timeline-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffb84d;
+  margin-top: 0.4rem;
+  flex-shrink: 0;
+}
+.adefam-timeline-line {
+  flex: 1;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 0.25rem 0;
+}
+.adefam-timeline-content {
+  padding-bottom: 2.75rem;
+  flex: 1;
+}
+
+.adefam-exp-date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffcb7d;
+}
+.adefam-exp-header {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0.3rem;
+  margin-bottom: 0.85rem;
+}
+.adefam-exp-location {
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+.adefam-exp-bullets {
+  list-style: disc;
+  padding-left: 1.25rem;
+  color: #e2eaec;
+  line-height: 1.75;
+  font-size: 1.02rem;
+}
+.adefam-exp-bullets li + li {
+  margin-top: 0.4rem;
+}
+.adefam-exp-links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+.adefam-exp-link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+.adefam-exp-link:hover {
+  color: #ffb84d;
+}
+
+.adefam-community {
+  margin-top: 4rem;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adefam-community-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+.adefam-community-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.adefam-community-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+.adefam-community-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+.adefam-community-desc {
+  font-size: 0.9rem;
+  color: #e2eaec;
+  line-height: 1.65;
+}
 </style>

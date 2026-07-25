@@ -38,7 +38,7 @@ export default {
 #adefam-menu {
   position: fixed;
   top: 50%;
-  right: 1.25rem;
+  right: 0.25rem;
   transform: translateY(-50%);
   z-index: 40;
   display: flex;

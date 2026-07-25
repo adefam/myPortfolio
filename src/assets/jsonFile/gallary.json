@@ -3,38 +3,22 @@
         {
           "id": 1,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1672662809/myPotfolio/IMG-20220524-WA0058_kvtohu.jpg",
-          "alt": "Famosa Adegbite Image",
-          "content":"AI and Python Training at Opolo Hub Osun State University, Osogbo, Osun State."
+          "content": "AI and Python Training at Opolo Hub, Osun State University, Osogbo, Osun State."
         },
         {
           "id": 2,
-          "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1655337777/myPotfolio/20190304_131643_b039mf.jpg",
-          "alt": "Famosa Adegbite Image",
-          "content":"Database class during NYSC at State Secondary Commercial School, Okop-Eto, Ikot-Ekpene, Akwal-Ibom State."
+          "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1672664554/myPotfolio/20220914_112259_fjhyvm.jpg",
+          "content": "ICT & Machine Learning Training at Osun State University, Osogbo, Osun State."
         },
         {
           "id": 3,
-          "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1655338003/myPotfolio/2013-06-23-115_pteybl.jpg",
-          "alt": "Famosa Adegbite Image",
-          "content":"Administrative Clerk @ The Church of Jesus Christ of Latter-Day Saints."
+          "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1672664023/myPotfolio/IMG-20220430-WA0018_qg2yif.jpg",
+          "content": "AI and Python Training at Bowen University, Osun State."
         },
         {
           "id": 4,
-          "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1672664554/myPotfolio/20220914_112259_fjhyvm.jpg",
-          "alt": "Famosa Adegbite Image",
-          "content":"ICT & ML Training at Osun State University, Osogbo, Osun State."
-        },
-        {
-          "id": 5,
-          "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1672664023/myPotfolio/IMG-20220430-WA0018_qg2yif.jpg",
-          "alt": "Famosa Adegbite Image",
-          "content": "AI and Python Training at Bowen University, Osun State"
-        },
-        {
-          "id": 6,
           "photo": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1672663178/myPotfolio/20191021_114420_rxu9mh.jpg",
-          "alt": "Famosa Adegbite Image",
-          "content":"Web Technology Training at Omega Technology, Federal Ministry of Technology, Osogbo."
+          "content": "Web Technology Training at Omega Technology, Federal Ministry of Technology, Osogbo."
         }
       ]
 }

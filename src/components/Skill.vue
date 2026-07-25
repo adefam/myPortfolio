@@ -3,8 +3,8 @@
 <section class="max-w-7xl text-gray-600 body-font overflow-hidden mx-auto" id="Skills">
   <div class="container px-5 py-24 mx-auto" v-for="skillMain in skillMains" :key="skillMain">
     <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-blog-top" v-bind:style="classStyle">{{skillMain.header}}</h1>
-      <p class="lg:w-2/3 w-full leading-relaxed text-blog-top" v-bind:style="classStyle">{{skillMain.paragraph}}</p>
+      <h2 class="adefam-heading mb-2 text-blog-top" v-bind:style="classStyle">{{skillMain.header}}</h2>
+      <p class="lg:w-2/3 w-full leading-relaxed text-blog-top adefam-subheading" v-bind:style="classStyle">{{skillMain.paragraph}}</p>
     </div>
     <div class="flex flex-wrap -m-4">
 
@@ -14,7 +14,7 @@
 
       <div class="md:w-4/12 w-full p-4" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
   
-      <div class="decoration-clone absolute -mt-6 ml-8 bg-orange p-3 text-white text-2xl font-bold">
+      <div class="decoration-clone absolute -mt-6 ml-8 adefam-bg-orange p-3 text-white text-2xl font-bold">
   FrontEnd
 </div>
         <div class="border border-orange p-6 rounded-lg">
@@ -132,7 +132,7 @@
 
       <div class="md:w-4/12 w-full p-4" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
   
-      <div class="decoration-clone absolute -mt-6 ml-8 bg-orange p-3 text-white text-2xl font-bold">
+      <div class="decoration-clone absolute -mt-6 ml-8 adefam-bg-orange p-3 text-white text-2xl font-bold">
         BackEnd
       </div>
         <div class="border border-orange p-6 rounded-lg">
@@ -189,7 +189,7 @@
         </div>
 
         <div class="pt-6">
-                <div class="decoration-clone absolute -mt-4 ml-8 bg-orange p-2 text-white text-2xl font-bold">
+                <div class="decoration-clone absolute -mt-4 ml-8 adefam-bg-orange p-2 text-white text-2xl font-bold">
   Database
       </div>
         <div class="border border-orange p-6 rounded-lg">
@@ -274,7 +274,7 @@
         </div>
 
          <div class="pt-6">
-                <div class="decoration-clone absolute -mt-4 ml-8 bg-orange p-2 text-white text-2xl font-bold">
+                <div class="decoration-clone absolute -mt-4 ml-8 adefam-bg-orange p-2 text-white text-2xl font-bold">
   Design
       </div>
         <div class="border border-orange p-6 rounded-lg">
@@ -300,7 +300,7 @@
 
       <div class="md:w-4/12 w-full p-4" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
         <div>
-      <div class="decoration-clone absolute -mt-6 ml-8 bg-orange p-2 text-white text-2xl font-bold">
+      <div class="decoration-clone absolute -mt-6 ml-8 adefam-bg-orange p-2 text-white text-2xl font-bold">
   Tools
       </div>
         <div class="border border-orange p-6 rounded-lg">
@@ -351,7 +351,7 @@
 
 
           <div class="pt-6">
-            <div class="decoration-clone absolute -mt-4 ml-8 bg-orange p-2 text-white text-2xl font-bold">
+            <div class="decoration-clone absolute -mt-4 ml-8 adefam-bg-orange p-2 text-white text-2xl font-bold">
               Others
             </div>
             <div class="border border-orange p-6 rounded-lg">
@@ -385,12 +385,22 @@
       </div>
    
     </div>
-    <button class="flex mx-auto mt-16 text-white adefam-button border-0 py-2 px-8 rounded text-lg" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-      <a :href="skillMain.href" target="blank">
-        {{skillMain.button}}
 
-      </a>
-      </button>
+    <div class="flex justify-center mt-1">
+   <a :href="skillMain.href"
+  target="_blank"
+  rel="noopener noreferrer"
+  download="Famosa-Adegbite-CV.pdf"
+  class="flex mx-auto mt-16 text-white adefam-button border-0 py-2 px-8 rounded text-lg"
+  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-sine"
+  data-aos-duration="600"
+>
+  {{ skillMain.button }}
+</a>
+</div>
+
   </div>
 </section>
 </div>
@@ -422,4 +432,36 @@ export default {
 
 <style scoped>
     .skill{font-weight:700;font-size:1.25rem;line-height:1.75rem;text-align:center}.css3{color:#2965f1}.css3:hover{color:#264de4}.html5{color:#f06529}.html5:hover{color:#e34c26}.javascript{background-color:#323330;color:#f0db4f}.javascript:hover{background-color:#f0db4f;color:#323330}.react{color:#1c2c4c}.react:hover{color:#7cc5d9}.vue{color:#42b883}.vue:hover{color:#35495e}.bootstrap,.bootstrap:hover{color:#563d7c}.wordpress{color:#21759b}.wordpress:hover{color:#444140}.pwa{color:#317efb}.pwa:hover{color:#f69435}.node{color:#68a063}.node:hover{color:#3c873a}.python{color:#306998}.python:hover{color:#ffd43b}.figma{color:#e04a34}.figma:hover{color:#62372c}.sketch{color:#8bd346}.sketch:hover{color:#efdf48}.adobe{color:#ed2224}.adobe:hover{color:#2d2e2d}.vscode,.vscode:hover{color:#0078d7}.github{color:#f34f29}.github:hover{color:#3d2d00}.sublime{color:#ff9800}.sublime:hover{color:#4c4c4c}.pivotal{color:#e87810}.pivotal:hover{color:#5080b0}.chrome{color:#d04838}.chrome:hover{color:#109850}.slack{color:#e01e5a}.slack:hover{color:#36c5f0}.docker{color:#0db7ed}.docker:hover{color:#384d54}.postman,.postman:hover{color:#ef5b25}.heroku{color:#6762a6}.heroku:hover{color:#c9c3e6}.azure{color:#007fff}.azure:hover{color:#004589}.coreldraw{color:#10a0d0}.coreldraw:hover{color:#304828}.excel{color:#1d6f42}.excel:hover{color:green}.spss{color:#cd1141}.spss:hover{color:#f07191}.word{color:#1c0879}.word:hover{color:#00a4ef}
+.adefam-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+.adefam-subheading {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.adefam-bg-orange {
+  background-color: #ff8c00;
+}
+
+.adefam-button {
+  background-color: #ff8c00;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 6px 20px rgba(255, 140, 0, 0.35);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.adefam-button:hover {
+  background-color: #52a8f2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(82, 168, 242, 0.4);
+}
+
+.adefam-button:active {
+  transform: translateY(0);
+}
 </style>

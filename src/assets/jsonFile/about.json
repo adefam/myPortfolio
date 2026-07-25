@@ -1,28 +1,31 @@
 {
     "aboutContent": [
         {
-         "id": 1,
-          "topHead": "Ensure Solution",
+          "id": 1,
+          "topHead": "Ensure Solutions",
           "downHead": "with Tech & Design.",
-          "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1662555887/myPotfolio/adefam_jdgswj.png",
-          "alt": "adefam",
+          "src": "https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1784759945/myPotfolio/about-us.png",
+          "alt": "Famosa Adegbite",
           "cv": "My CV",
-          "cvhref": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/edit?usp=sharing&ouid=101198148115843846802&rtpof=true&sd=true"
-        } 
+          "cvhref": "https://docs.google.com/document/d/1Em0I3yoSsybjYYatE9naVPiUpSO5HgG6/export?format=pdf"
+        }
     ],
 
     "aboutParagraph": [
         {
-          "para": "Passionate about what I do and doing it well is my goal. I grew up in Osogbo, Osun State, Nigeria. I Studied Computer Science (BSc Honor) at Osun State University."
+          "para": "Passionate about building reliable, user-focused software is what drives me. I grew up in Osogbo, Osun State, Nigeria, where I first discovered a love for technology, and I've since spent 6+ years as a Software Engineer (Frontend) working across HealthTech, EdTech, and enterprise products with remote teams across the UK, US, and Nigeria."
         },
         {
-           "para": "My non-tech passion includes learning📚 & music🎹🎧. As I worked diligently to improve myself, I so much believe that every individual can improve from day to day, and have a greater capacity to do things as the years come and the years go.🧘‍♀️🧘‍♀️"
+          "para": "I studied Computer Science (BSc) at Osun State University and hold a Certification in Web & Computer Programming from Brigham Young University-Idaho. My non-tech passions include learning 📚 and music 🎹🎧 — I believe every person has the capacity to grow a little more each year."
         },
         {
-           "para": "In tech, I am a huge fan of mobile responsive web applications, conversant with Node, Vue, React, Python, and more. Trained in various computer-related applications and certified with many."
+          "para": "In tech, I specialize in React.js, Next.js, and TypeScript, building fast, accessible, mobile-responsive interfaces. I'm equally comfortable with Vue.js, Node.js, and Python when a project calls for it, and I've built secure authentication systems, role-based dashboards, and scalable component architectures used by thousands of people."
         },
         {
-           "para": "Skilled in Software engineering, Frontend, Backend, Database Administrator, Data Science and Analysis, UI/UX Design, GoogleLing, Training/Mentoring, Soft-Skills, and more..."
+          "para": "Skilled in Frontend Engineering, Backend Development, Database Administration, Data Analysis, UI/UX Design, Technical Mentoring, and Training — always learning, always building."
         }
     ]
 }
+
+
+

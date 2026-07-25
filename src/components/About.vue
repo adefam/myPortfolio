@@ -1,73 +1,178 @@
 <template>
+  <section class="relative py-20 conic-gradient overflow-x-hidden" :style="classStyle" id="About-Me">
+    <div v-for="about in abouts" :key="about.id" class="container mx-auto px-4 max-w-6xl">
+      <div
+        class="adefam-content"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="800"
+      >
+        <div class="adefam-photo-cell">
+          <img
+            :src="about.src"
+            :alt="`${about.alt} - Software Engineer (Frontend)`"
+            class="adefam-photo"
+            loading="lazy"
+          />
+        </div>
 
-  <section class="relative py-20 conic-gradient" v-bind:style="classStyle" id="About-Me">
-    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style="height: 80px;">
+        <span class="adefam-eyebrow">About Me</span>
 
-    </div>
-    <div class="container mx-auto px-4" v-for="about in abouts" :key="about.id">
-      <!-- <div class="items-center flex flex-wrap"> -->
-      <div class="flex flex-wrap">
+        <h2 class="adefam-heading text-white mt-2">
+          {{ about.topHead }} <br /> {{ about.downHead }}
+        </h2>
 
-        <div class="w-full lg:w-4/12 md:w-full ml-auto mr-auto px-4 mb-10 z-0" data-aos="fade-up" data-aos-offset="200"
-          data-aos-easing="ease-in-sine" data-aos-duration="600">
-          <div class="relative">
+        <p
+          v-for="aboutPara in aboutParas"
+          :key="aboutPara.para"
+          class="mt-4 leading-relaxed text-color break-words text-justify adefam-paragraph"
+        >
+          {{ aboutPara.para }}
+        </p>
 
-            <div class="shape absolute bottom-0 skew-y-12">
+        <div class="adefam-stats-cell">
+          <div class="grid grid-cols-3 gap-4 max-w-md">
+            <div class="text-center">
+              <p class="adefam-stat-number">6+</p>
+              <p class="adefam-stat-label">Years Experience</p>
             </div>
-            <img :src="about.src" :alt="about.alt" class="max-w-full bottom-radius transform " loading="lazy" />
-
-          </div>
-
-        </div>
-
-        <div class="w-full lg:w-5/12 md:w-full ml-auto mr-auto px-4 z-50" data-aos="fade-up" data-aos-offset="200"
-          data-aos-easing="ease-in-sine" data-aos-duration="1000">
-          <div class="md:pr-12">
-            <div
-                  class="p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-2 shadow-lg rounded-full adefam-button"
-                >
-                  <a :href="about.cvhref" target="blank" class="">{{about.cv}}</a>
-                </div>
-            <h1 class="md:pt-8 text-white "> {{ about.topHead }} <br /> {{ about.downHead }} </h1>
-            <p class="mt-4 leading-relaxed text-color" v-for="aboutPara in aboutParas" :key="aboutPara">
-              {{ aboutPara.para }}
-            </p>
+            <div class="text-center">
+              <p class="adefam-stat-number">40+</p>
+              <p class="adefam-stat-label">APIs Integrated</p>
+            </div>
+            <div class="text-center">
+              <p class="adefam-stat-number">10k+</p>
+              <p class="adefam-stat-label">Users Served</p>
+            </div>
           </div>
         </div>
-
-        
       </div>
     </div>
   </section>
-
 </template>
 
 <script>
-
-
 export default {
-  props: ['abouts', 'aboutParas'],
+  props: ["abouts", "aboutParas"],
   data() {
     return {
-      about: this.abouts,
-      aboutPara: this.aboutParas,
       hour: new Date().getHours(),
-      classStyle: {
-        "background-image": "linear-gradient(#069ce3, #0474ac)"
-      }
-    }
-
+    };
   },
   computed: {
     classStyle() {
-      if (this.hour >= 20 || this.hour <= 5) return { "background-image": "linear-gradient(#000000, #000000)" };
-      return { "background-image": "linear-gradient(#069ce3, #0474ac)" };
+    if (this.hour >= 20 || this.hour <= 5) {
+      return { "background-image": "linear-gradient(135deg, #000000, #0b1120)" };
     }
-  }
-}
+    return { "background-image": "linear-gradient(135deg, #0b3559, #061a35)" };
+  },
+  },
+};
 </script>
 
 <style scoped>
-.conic-gradient{background-image:linear-gradient(#069ce3,#0474ac)}.text-color{color:#e2eaec;font-size:18px;line-height:1.75rem;text-align:justify}.text-white{font-size:36px;font-weight:700;line-height:1.5;letter-spacing:.5px}
+.conic-gradient {
+  background-image: linear-gradient(#069ce3, #0474ac);
+}
+.text-color {
+  color: #e2eaec;
+  font-size: 18px;
+  line-height: 1.75rem;
+}
+.adefam-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+/* Contrast-safe label — dark chip behind text, readable on both black and blue backgrounds */
+.adefam-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffb84d;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+}
+
+.adefam-stat-number {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #ffb84d;
+  margin: 0;
+}
+
+.adefam-stat-label {
+  font-size: 0.8rem;
+  color: #e2eaec;
+  margin-top: 0.25rem;
+}
+
+/* Photo: border only, no background box */
+.adefam-photo {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1rem;
+  border: 5px solid #ffffff;
+}
+
+/* Mobile & tablet: simple centered stack, no float */
+.adefam-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+.adefam-content .text-color {
+  text-align: left;
+  width: 100%;
+}
+.adefam-stats-cell {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.adefam-paragraph {
+  text-align: justify !important;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size: 1.1rem;
+  width: 97% !important;
+}
+
+/* Desktop: photo floats left, heading + paragraphs wrap around it,
+   and once text clears the photo's height it naturally spans full width */
+@media (min-width: 1024px) {
+  .adefam-content {
+    display: block;
+    text-align: left;
+  }
+  .adefam-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .adefam-photo-cell {
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+  .adefam-stats-cell {
+    clear: both;
+    justify-content: flex-start;
+    padding-top: 1rem;
+  }
+}
 </style>

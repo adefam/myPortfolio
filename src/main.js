@@ -6,6 +6,9 @@ import AOS from 'aos';
 import './aos.css';
 
 
-AOS.init();
+AOS.init({
+  once: true,
+  mirror: false
+});
 
 createApp(App).use(Router).mount("#app");

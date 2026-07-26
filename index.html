@@ -1,71 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Famosa Adegbite | Software Engineer (Frontend), React & Next.js</title>
-  <meta name="keywords"
-    content="frontend software engineer, React developer, Next.js developer, Vue developer, HealthTech frontend engineer, Adefam" />
-  <meta name="description"
-    content="Software Engineer (Frontend) with 6+ years building HealthTech, EdTech & enterprise apps in React, Next.js & TypeScript. View projects and experience." />
+  <meta name="keywords" content="frontend software engineer, React developer, Next.js developer, Vue developer, HealthTech frontend engineer, Adefam" />
+  <meta name="description" content="Software Engineer (Frontend) with 6+ years building HealthTech, EdTech & enterprise apps in React, Next.js & TypeScript. View projects and experience." />
   <meta name="author" content="Famosa Adegbite" />
   <link rel="canonical" href="https://adegbitefamosa.com.ng/" />
 
-
-  <!-- Open Graph (LinkedIn, Facebook, Slack, WhatsApp previews) -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Famosa Adegbite | Software Engineer (Frontend), React & Next.js" />
-  <meta property="og:description"
-    content="Software Engineer (Frontend) with 6+ years building HealthTech, EdTech & enterprise apps in React, Next.js & TypeScript. View projects and experience." />
-  <meta property="og:image"
-    content="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1662555887/myPotfolio/adefam_jdgswj.png" />
+  <meta property="og:description" content="Software Engineer (Frontend) with 6+ years building HealthTech, EdTech & enterprise apps in React, Next.js & TypeScript. View projects and experience." />
+  <meta property="og:image" content="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1662555887/myPotfolio/adefam_jdgswj.png" />
   <meta property="og:url" content="https://adegbitefamosa.com.ng/" />
   <meta property="og:site_name" content="Famosa Adegbite Portfolio" />
 
-
-  <!-- Twitter/X Card -->
+  <!-- Twitter/X -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Famosa Adegbite | Software Engineer (Frontend), React & Next.js" />
-  <meta name="twitter:description"
-    content="Software Engineer (Frontend) with 6+ years building HealthTech, EdTech & enterprise apps in React, Next.js & TypeScript. View projects and experience." />
-  <meta name="twitter:image"
-    content="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1662555887/myPotfolio/adefam_jdgswj.png" />
+  <meta name="twitter:description" content="Software Engineer (Frontend) with 6+ years building HealthTech, EdTech & enterprise apps in React, Next.js & TypeScript. View projects and experience." />
+  <meta name="twitter:image" content="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1662555887/myPotfolio/adefam_jdgswj.png" />
 
-  <!-- Preconnect to speed up CDN/image host requests -->
+  <!-- Preconnects -->
   <link rel="preconnect" href="https://res.cloudinary.com" />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
 
-  <!-- Preload Font Awesome -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- Favicon / touch icons -->
+  <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png" />
+  <link rel="apple-touch-icon" href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png" sizes="180x180" />
+  <!-- mask-icon removed until a real monochrome SVG version exists -->
 
-  <link rel="shortcut icon" type="image/png"
-    href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png" />
+  <!-- Theme color -->
+  <meta name="theme-color" content="#52a8f2" />
 
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
+  <!-- iOS "Add to Home Screen" support — Safari ignores the manifest, needs these directly -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Adefam Portfolio" />
+
+  <!-- Font Awesome — single load, non-blocking -->
+  <link
+    rel="preload"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    as="style"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
   <noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   </noscript>
 
-  <link rel="stylesheet" preload href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-    crossOrigin="anonymous" />
-
-  <link rel="apple-touch-icon"
-    href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png"
-    sizes="180x180">
-  <link rel="mask-icon"
-    href="https://res.cloudinary.com/famosa-adegbite/image/upload/q_auto,f_auto/v1659647575/myPotfolio/logo4a_eclp2w.png"
-    color="#52a8f2">
-  <meta name="theme-color" content="#52a8f2">
-  <!-- Google Adsense -->
-  <script async defer
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8588482400157352"
-    crossorigin="anonymous"></script>
+  <!-- Google AdSense -->
+  <script async defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8588482400157352" crossorigin="anonymous"></script>
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -84,21 +75,11 @@
     "knowsAbout": ["React.js", "Next.js", "TypeScript", "Node.js", "Vue.js", "Frontend Architecture"]
   }
   </script>
-
 </head>
 
 <body>
   <div id="app"></div>
   <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0"
-    nonce="No1yayAj"></script> <!-- Like Script -->
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0"
-    nonce="zB90dbj9"></script> <!-- Share Script -->
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0"
-    nonce="IDXoOcW2"></script> <!-- Comment Script -->
-  <!-- LinkedIn Badga-->
-  <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>  -->
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="No1yayAj"></script>
   <script type="module" src="/src/main.js"></script>
 </body>
-
-</html>

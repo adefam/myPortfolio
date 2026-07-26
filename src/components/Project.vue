@@ -1,5 +1,5 @@
 <template>
-  <div class="body top-0 py-10 w-full h-full bg-center bg-cover" :style="classStyle">
+  <div class="w-full py-10 bg-center bg-cover" :style="classStyle">
     <section class="max-w-7xl text-gray-600 body-font overflow-hidden mx-auto" id="Project">
       <div v-for="project in projects" :key="project.heading" class="px-5 pb-20 mx-auto adefam-project">
         <div
